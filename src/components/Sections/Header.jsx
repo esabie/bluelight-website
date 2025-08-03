@@ -13,7 +13,7 @@ export default function Header() {
       <LeftSide className="flexCenter">
         <div>
           <h1 className="extraBold font60">Welcome to Bluelight Healthcare Group.</h1>
-          <h1 className="Bold font20">Specialist Recruitment | Homecare Services | Crisis Response I Supported living Services</h1>
+          <h1 className="Bold font20">Specialist Recruitment | Homecare Services | Emergency Crisis Response | Supported living Services</h1>
           <HeaderP className="font13 semiBold">
             Bluelight is a trusted provider of high-quality healthcare staffing and bespoke homecare services
             across the UK. Whether you&#39;re seeking qualified professionals to support regulated care settings,
