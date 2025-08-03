@@ -111,9 +111,8 @@ export default function Services() {
 
             <h1 className="font40 extraBold">OUR SERVICES</h1>
 
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              Our service is nationwide, for both candidates and clients.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
