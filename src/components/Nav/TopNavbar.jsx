@@ -6,6 +6,7 @@ import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
+import Logo from "../../assets/img/clients/bhc_logo.png"
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
 export default function TopNavbar() {
@@ -27,7 +28,12 @@ export default function TopNavbar() {
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            <LogoIcon />
+            {/*<LogoIcon />*/}
+            <img
+              src={Logo}
+              style={{ width: '90px', height: '90px' }}
+              alt="care logo"
+            />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               Bluelight Healthcare Recruitment
             </h1>
