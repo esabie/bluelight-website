@@ -111,11 +111,210 @@ export default function Services() {
 
             <h1 className="font40 extraBold">OUR SERVICES</h1>
 
-              Our service is nationwide, for both candidates and clients.
+            <h1 className="font20 extraBold">SPECIALIST RECRUITMENT</h1>
+
+            <p className="font15">
+              <strong> Bluelight Healthcare</strong>specialises in sourcing, vetting, and placing highly skilled healthcare professionals 
+              to meet the evolving needs of the NHS, local authorities, private healthcare organisations, and community services.<br />
               <br />
+              We understand that staffing is not simply about filling vacancies, it’s about ensuring the right fit for the client, the
+                team, and the individual being supported. That’s why our recruitment process is robust and values-driven:<br />
+              <br />
+               <strong> Comprehensive Screening:</strong> Full DBS checks, reference verification, qualification validation, and right-to-
+                work compliance.<br />
+               <strong> Skills & Competency Assessment:</strong> Each candidate undergoes clinical skills evaluations and scenario-
+                based interviews to ensure they can handle real-world care situations.<br />
+               <strong> Specialist Pool: </strong> Access to Registered Nurses (RGN, RMN, RNLD), Support Workers, Complex Care
+                Practitioners, and professionals trained in mental health, autism, palliative care, and paediatric support.<br />
+               <strong> Flexible Engagement:</strong> We strive for outstanding outcomes in all we do.<br />
+              <br />
+
+              <strong>Key Advantage: </strong> Our talent network is ready to deploy within hours, ensuring continuity of care even in high-
+                pressure or crisis situations. <br />
+              <br />
+              
+            </p>
+
+            <h1 className="font20 extraBold">HOME CARE SERVICES</h1>
+
+            <p className="font15">
+              At <strong> Bluelight Healthcare</strong> we believe that home is more than just a place, it’s a source of comfort, familiarity, and
+              security. Our bespoke home care packages are designed to allow individuals to remain where they feel most at
+              ease while receiving the right level of professional care and support to meet their physical, emotional, and social
+              needs. <br />
+              Every care plan is tailored to the person’s unique health requirements, lifestyle preferences, and personal goals,
+              ensuring the right balance of independence and support.<br />
+              We understand that staffing is not simply about filling vacancies, it’s about ensuring the right fit for the client, the
+                team, and the individual being supported. That’s why our recruitment process is robust and values-driven:<br />
+              <br />
+
+              <h1 className="font18 extraBold">Our Services Include:</h1>
+
+              <strong> Personal Care</strong> <br />
+              We support with all aspects of daily living, including washing, dressing, grooming, continence care, and mobility
+              assistance. Our approach is always respectful and dignified, ensuring that care is provided in a way that promotes
+              comfort and independence.<br />
+              <br />
+              <strong> Medication Support</strong> <br />
+              From simple prompts to complex regimes, we ensure medicines are administered safely and on time. Our staff are
+              trained in specialist techniques such as <strong> PEG feeding, tracheostomy care, and epilepsy management, </strong> ensuring
+              clinical safety in the home environment.<br />
+              <br />
+              <strong> Health Monitoring</strong> <br />
+              We provide regular checks of vital signs, blood sugar levels, and overall wellbeing, as well as wound care and post-
+              operative support. Our trained carers and nurses work closely with healthcare professionals to ensure early detection of 
+              any changes in health.<br />
+              <br />
+              <strong> Companionship & Social Support</strong> <br />
+              We understand the importance of mental wellbeing and social connection. Our carers offer companionship, help
+              clients stay engaged in hobbies, accompany them to appointments or social activities, and encourage participation
+              in community life, helping to combat loneliness and isolation.<br />
+              <br />
+              <strong> What Sets Us Apart:</strong> <br />
+              We take a holistic, team-based approach to home care. Our carers work hand-in-hand with
+              families, GPs, district nurses, and allied health professionals to ensure seamless communication and continuity of
+              care.<br />
+              <br />
+
+              <h1 className="font18 extraBold">We pride ourselves on being:</h1>
+
+               <strong> Flexible</strong> - adapting care as needs change. <br />
+               <strong> Responsive</strong> - able to step in quickly when extra support is needed. <br />
+               <strong> Person-Centred</strong> - always guided by the individual’s preferences, dignity, and independence. <br />
+               <strong> Clinically Led</strong> - with oversight from experienced healthcare professionals to maintain safety and quality. <br /> <br />
+
+              With <strong> Bluelight Healthcare,</strong> clients and families have peace of mind knowing that care is safe, compassionate, and
+              truly personalised.<br />
+              <br />
+
+
+              <h1 className="font18 extraBold">EMERGENCY CRISIS RESPONSE</h1>
+
+              When the unexpected happens, time matters. Care arrangements can break down suddenly, hospital discharges
+              can be arranged at short notice, and safeguarding risks can escalate in moments. In these critical situations,
+              Bluelight Healthcare’s Emergency Crisis Response Team is ready to act 24/7, nationwide.<br />
+              We are trusted by local authorities, NHS teams, and private clients to respond rapidly and effectively when urgent
+              intervention is needed. Our goal is not just to fill a gap, but to stabilise the situation, protect the individual, and
+              create a clear path forward. <br />
+              <br />
+
+              <h1 className="font18 extraBold">When We Step In</h1>
+                
+                Our crisis service provides immediate solutions for:<br />
+                <br />
+
+                 <strong> Sudden Hospital Discharges</strong> – Rapid mobilisation of home or community-based care to prevent delayed
+                discharges or readmissions.<br />
+                 <strong> Breakdown in Care Arrangements </strong> – Whether due to illness, absence, or breakdown of a placement, we
+                ensure no one is left without support.<br />
+                 <strong> Safeguarding Concerns</strong> – Urgent protective care when an individual’s safety is at risk, ensuring they are
+                removed from harm’s way and stabilised.<br />
+                 <strong> Children’s Emergency Placements</strong> – Immediate safe placements for children and young people,
+                including those with complex behavioural, emotional, or clinical needs.<br />
+              <br /> <br />
+
+              <h1 className="font18 extraBold">Our Crisis Response Capability </h1>
+
+                We bring structure, safety, and compassion to even the most challenging situations: <br />
+                <br />
+                 <strong> 24/7 On-Call Coordination</strong> - Our operations team can mobilise fully vetted and trained staff within hours.<br />
+                 <strong> Clinically Led Assessment </strong> – Upon arrival, we carry out a swift yet thorough risk and needs assessment to
+                ensure immediate safety and stability.<br />
+                 <strong> Short-Term Intensive SupportShort-Term Intensive Support</strong> – We provide high-level care in the moment, then work to transition the
+                individual into a sustainable long-term arrangement.<br />
+                 <strong> Specialist Expertise</strong> – Our teams are trained in Positive Behaviour Support (PBS), de-escalation
+                techniques, and trauma-informed practice, enabling us to work effectively in high-stress, high-risk environments.<br />
+                <br />
+
+              <h1 className="font18 extraBold">Our Approach </h1>
+
+                We understand that emergencies don’t just require speed, they demand sensitivity, professionalism, and the right
+                skill set. That’s why every crisis response is overseen by experienced care managers and supported by a clinically
+                led governance framework. <br />
+                <br /> <br />
+
+                <strong> We focus on:</strong> <br /> <br/>
+
+                 <strong> Protecting dignity</strong> in moments of vulnerability. <br />
+                 <strong> Reducing risk </strong> through immediate, effective action. <br />
+                 <strong> Restoring stability</strong> so individuals and families can move forward with confidence. <br /> <br />
+
+                With Bluelight Healthcare, you have a crisis response partner who is always ready, always professional, and always
+                committed to turning urgent situations into safe, manageable outcomes. <br /> <br /> <br />
+
+              <h1 className="font18 extraBold">SUPPORTED LIVING SERVICES </h1>
+
+                At Bluelight Healthcare, we believe that everyone has the right to live in a safe, comfortable, and empowering
+                environment, regardless of their support needs. Our Supported Living services are built around individual choice,
+                dignity, and independence, providing the right level of assistance so people can live the life they want, on their own
+                terms. <br />
+                <br />
+
+                We work with adults and young people with a wide range of needs, including: <br />
+
+                 Learning disabilities <br />
+                 Autism spectrum conditions <br />
+                 Mental health conditions<br /> 
+                 Physical disabilities<br />
+                 Complex health needs<br /><br />
+
+                Our approach combines flexibility, person-centred planning, and skilled support to help people live fulfilling,
+                meaningful lives in their own home or in shared accommodation.<br /> <br/> <br/>
+
+              <h1 className="font18 extraBold">What We Provide </h1>
+
+                <strong> Flexible Support Models</strong> <br />
+
+                We offer a range of tailored support options, from 24/7 on-site staffing and waking night cover to planned daily
+                visits. This ensures each individual gets the level of support they need while maintaining their independence. <br />
+                <br />
+
+                <strong> Life Skills Development</strong> <br />
+
+                We help people develop essential daily living skills such as cooking, budgeting, shopping, self-care, and travel
+                training. Our aim is to build confidence and resilience, enabling individuals to take greater control of their own lives. <br />
+                <br />
+
+                <strong> Tenancy & Housing Support</strong> <br />
+  
+                Our teams assist with maintaining tenancies, liaising with landlords, and managing household responsibilities. We
+                work to prevent tenancy breakdowns and ensure individuals feel secure in their home. <br />
+                <br />
+
+                <strong> Social Inclusion</strong> <br />
+  
+                We actively promote community involvement, helping individuals build friendships, join local activities, and access
+                education or employment opportunities. Social participation is key to emotional wellbeing and personal growth. <br />
+                <br />
+
+                <strong> Health & Wellbeing Support</strong> <br />
+  
+                We help coordinate healthcare needs, from facilitating GP and therapy appointments to supporting physical activity
+                programmes. Our approach addresses both physical and mental health to ensure holistic wellbeing. <br />
+                <br /> <br />
+
+                <h1 className="font18 extraBold">Our Ethos </h1>
+                We co-produce support plans with each person, their family, and the professionals involved in their care. This
+                collaborative approach ensures the individual’s voice is at the centre of every decision. <br />
+                <br />
+
+                Our focus is on: <br />
+
+                 <strong> Choice</strong> – Giving people control over their own support. <br />
+                 <strong> Ability, Not Disability </strong> – Building on strengths and potential rather than limitations. <br />
+                 <strong> Fostering Independence</strong> – Supporting people to achieve their personal goals, whether that’s managing their own home, starting a job, or taking part in community life. <br /> <br />
+
+
+                With <strong> Bluelight Healthcare, </strong> supported living isn’t just about providing care, it’s about unlocking potential and creating a life that’s safe, fulfilling, and truly independent.<br /> <br/>
+              
+            </p>
+
+              {/*<h1 className="font20 extraBold">ABOUT US</h1>
+            <h1 className="font40 extraBold">Our Story - Passionate About People. Committed to Care.</h1>
+            <p className="font15"></p> */}
             </p>
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
+          {/*<ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
@@ -140,7 +339,7 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox icon="printer" title="Supported living Services" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
             </ServiceBoxWrapper>
-          </ServiceBoxRow>
+          </ServiceBoxRow> */}
         </div>
         {/*<div className="lightBg">
           <div className="container">
@@ -182,9 +381,9 @@ export default function Services() {
                 </AddRightInner>
               </AddRight>
             </Advertising>
-          </div>
+          </div> 
         </div> */}
-      </div>
+      </div> 
     </Wrapper>
   );
 }
