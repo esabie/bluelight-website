@@ -120,13 +120,13 @@ export default function Services() {
               We understand that staffing is not simply about filling vacancies, it is about ensuring the right fit for the client, the
                 team, and the individual being supported. That is why our recruitment process is robust and values-driven:<br />
               <br />
-              <p>&bull; <strong> Comprehensive Screening:</strong> Full DBS checks, reference verification, qualification validation, and right-to-
+              <p> <strong> Comprehensive Screening:</strong> Full DBS checks, reference verification, qualification validation, and right-to-
                 work compliance.</p>
-              <p>&bull; <strong> Skills & Competency Assessment:</strong> Each candidate undergoes clinical skills evaluations and scenario-
+              <p><strong> Skills & Competency Assessment:</strong> Each candidate undergoes clinical skills evaluations and scenario-
                 based interviews to ensure they can handle real-world care situations.</p>
-              <p>&bull; <strong> Specialist Pool: </strong> Access to Registered Nurses (RGN, RMN, RNLD), Support Workers, Complex Care
+              <p><strong> Specialist Pool: </strong> Access to Registered Nurses (RGN, RMN, RNLD), Support Workers, Complex Care
                 Practitioners, and professionals trained in mental health, autism, palliative care, and paediatric support.</p>
-              <p>&bull; <strong> Flexible Engagement:</strong> We strive for outstanding outcomes in all we do.</p>
+              <p><strong> Flexible Engagement:</strong> We strive for outstanding outcomes in all we do.</p>
               <br />
 
               <strong>Key Advantage: </strong> Our talent network is ready to deploy within hours, ensuring continuity of care even in high-
