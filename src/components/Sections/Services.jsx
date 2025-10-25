@@ -88,7 +88,7 @@ export default function Services() {
               <br />
 
             <h1 className="font20 extraBold">OUR MISSION</h1>
-              To change lives through high-quality, compassionate, and clinically safe care—delivered by
+              To change lives through high-quality, compassionate, and clinically safe care, delivered by
               people who truly care. <br /> We achieve this by investing in training, empowering our teams, and working in partnership with
               service users, families, and the wider care system.<br />
               <br />
