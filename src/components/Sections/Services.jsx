@@ -62,7 +62,7 @@ export default function Services() {
               the quiet, complex needs of individuals in their own homes, we recognise that no two care
               environments and no two people are ever the same. <br />
               <br />
-              Our nurses, support workers, and homecare professionals are more than just highly trained—they
+              Our nurses, support workers, and homecare professionals are more than just highly trained, they
               are compassionate, resilient, and deeply committed to making a meaningful difference. They are
               the heartbeat of Bluelight and the reason so many families, commissioners, and clinical teams
               place their trust in us. We also understand that good care is not just about clinical skill, it is about listening, adapting, and
@@ -80,7 +80,7 @@ export default function Services() {
               <p>&bull; All staff are enhanced DBS checked.</p>
               <p>&bull; We maintain a robust training and supervision framework.</p>
               <p>&bull; We regularly assess and update staff skills to match client needs.</p>
-              <p>&bull; We are registered with the Care Quality Commission (CQC), and our latest inspection.</p>
+              <p>&bull; We are registered with the Care Quality Commission (CQC), and are currently rated good.</p>
 
               <br />
               Our clients include local authorities, NHS partners, private hospitals, and families who trust us to
