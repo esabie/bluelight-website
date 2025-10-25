@@ -4,7 +4,7 @@ import styled from "styled-components";
 // Assets
 import ClientLogo01 from "../../assets/img/clients/qcs.png"
 import ClientLogo02 from "../../assets/img/clients/ukhca2.png";
-import ClientLogo03 from "../../assets/img/clients/hte2.png";
+import ClientLogo03 from "../../assets/img/clients/rec.png";
 import ClientLogo04 from "../../assets/img/clients/ico2.png";
 import ClientLogo05 from "../../assets/img/clients/cqc.png";
 import ClientLogo06 from "../../assets/img/clients/iso2.png";

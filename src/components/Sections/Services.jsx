@@ -32,22 +32,22 @@ export default function Services() {
               provider, offering both clinical staffing solutions and CQC-regulated homecare and crisis support
               across the UK. <br />
               <br />
-              From our earliest days, our focus has never shifted:{" "} <strong> care should always be personal,
-              responsive, and human. </strong> <br />
+              From our earliest days, our focus has never shifted:{" "} care should always be personal,
+              responsive, and human. <br />
               <br />
-              We believe that great care starts with great people. That’s why we invest heavily in sourcing,
+              We believe that great care starts with great people. That is why we invest heavily in sourcing,
               training, and supporting the best local talent, from registered nurses and support workers to crisis
-              response teams and homecare specialists. Our staff aren’t just highly skilled, they’re deeply
+              response teams and homecare specialists. Our staff are not just highly skilled, they are deeply
               committed to making a difference in every shift, every home, and every individual they support. <br />
               <br />
-              Whether we’re responding to an urgent call for overnight support, mobilising a team for a
-              vulnerable child in crisis, or helping a family care for a loved one at home, <strong> we show up with
-              purpose, professionalism, and compassion.</strong>  <br />
+              Whether we are responding to an urgent call for overnight support, mobilising a team for a
+              vulnerable child in crisis, or helping a family care for a loved one at home, we show up with
+              purpose, professionalism, and compassion.  <br />
               <br />
-              We don’t see ourselves as just a provider. We see ourselves as partners in care. Our strength
+              We do not see ourselves as just a provider. We see ourselves as partners in care. Our strength
               lies in our people, and our commitment is to always act in service of those who trust us with their
               most important needs. <strong> Bluelight</strong> is proud to work alongside NHS trusts, local authorities, care homes, and private
-              individuals to deliver safe, dignified, and high-quality care, wherever and whenever it’s needed
+              individuals to deliver safe, dignified, and high-quality care, wherever and whenever it is needed
               most.<br />
               <br />
               <em>“The best way to find yourself is to lose yourself in the service of others.”</em> – Mahatma Gandhi <br />
@@ -56,7 +56,7 @@ export default function Services() {
 
             <h1 className="font20 extraBold">WHAT DRIVES US</h1>
             <p className="font15">
-              At Bluelight, we don’t just provide healthcare services we live and breathe them. With years of
+              At Bluelight, we do not just provide healthcare services we live and breathe them. With years of
               frontline experience across both clinical and community settings, we understand the real-world
               challenges that define modern care delivery. From the fast-paced urgency of hospital wards to
               the quiet, complex needs of individuals in their own homes, we recognise that no two care
@@ -65,23 +65,23 @@ export default function Services() {
               Our nurses, support workers, and homecare professionals are more than just highly trained—they
               are compassionate, resilient, and deeply committed to making a meaningful difference. They are
               the heartbeat of Bluelight and the reason so many families, commissioners, and clinical teams
-              place their trust in us. We also understand that good care is not just about clinical skill, it’s about listening, adapting, and
-              being truly present. That’s why we don’t believe in one-size-fits-all solutions. We tailor every
+              place their trust in us. We also understand that good care is not just about clinical skill, it is about listening, adapting, and
+              being truly present. That is why we do not believe in one-size-fits-all solutions. We tailor every
               package, every placement, and every interaction around the person, their preferences, and their
               goals.<br />
               <br />
-              Whether it’s a few hours of companionship each week, complex support in the home, or round-
-              the-clock staffing for a young person in crisis our approach is the same: <strong>responsive, respectful,
-              and rooted in real care. </strong>
-              This is what person-centred support means to us, and it’s what we deliver, every single day.<br />
+              Whether it is a few hours of companionship each week, complex support in the home, or round-
+              the-clock staffing for a young person in crisis our approach is the same: responsive, respectful,
+              and rooted in real care.
+              This is what person-centred support means to us, and it is what we deliver, every single day.<br />
               <br />
 
             <h1 className="font20 extraBold">Our Commitment to Quality &amp; Safety</h1>
-               All staff are <strong>enhanced DBS checked </strong><br />
-               We maintain a robust <strong> training and supervision framework</strong> <br />
-               We regularly assess and update staff skills to match client needs <br />
-               We are <strong>registered with the Care Quality Commission (CQC) </strong>, and our latest inspection
-              reports are publicly available at www.cqc.org.uk.<br />
+              <p>&bull; All staff are enhanced DBS checked.</p>
+              <p>&bull; We maintain a robust training and supervision framework.</p>
+              <p>&bull; We regularly assess and update staff skills to match client needs.</p>
+              <p>&bull; We are registered with the Care Quality Commission (CQC), and our latest inspection.</p>
+
               <br />
               Our clients include local authorities, NHS partners, private hospitals, and families who trust us to
               deliver quality care every time.<br />
@@ -99,13 +99,13 @@ export default function Services() {
               <br />
 
             <h1 className="font20 extraBold">OUR CORE VALUES</h1>
-               <strong> Compassion:</strong> We lead with empathy and kindness.<br />
-               <strong> Accountability:</strong> We take responsibility for the care we deliver.<br />
-               <strong> Respect: </strong> We honour every individual’s dignity, rights, and voice.<br />
-               <strong> Excellence:</strong> We strive for outstanding outcomes in all we do.<br />
-               <strong> Integrity: </strong> We act with honesty and transparency.<br />
-               <strong> Teamwork: </strong> We work collaboratively across disciplines and communities.<br />
-               <strong> Inclusivity: </strong> We celebrate diversity and ensure care is culturally safe and accessible to all.<br />
+              <p>&bull; <strong> Compassion:</strong> We lead with empathy and kindness.</p>
+              <p>&bull; <strong> Accountability:</strong> We take responsibility for the care we deliver.</p>
+              <p>&bull; <strong> Respect: </strong> We honour every individual’s dignity, rights, and voice.</p>
+              <p>&bull; <strong> Excellence:</strong> We strive for outstanding outcomes in all we do.</p>
+              <p>&bull; <strong>Integrity: </strong> We act with honesty and transparency.</p>
+              <p>&bull; <strong> Teamwork: </strong> We work collaboratively across disciplines and communities.</p>
+              <p>&bull; <strong> Inclusivity: </strong> We celebrate diversity and ensure care is culturally safe and accessible to all</p>
               <br /> <br />
 
 
@@ -117,16 +117,16 @@ export default function Services() {
               <strong> Bluelight Healthcare</strong>specialises in sourcing, vetting, and placing highly skilled healthcare professionals 
               to meet the evolving needs of the NHS, local authorities, private healthcare organisations, and community services.<br />
               <br />
-              We understand that staffing is not simply about filling vacancies, it’s about ensuring the right fit for the client, the
-                team, and the individual being supported. That’s why our recruitment process is robust and values-driven:<br />
+              We understand that staffing is not simply about filling vacancies, it is about ensuring the right fit for the client, the
+                team, and the individual being supported. That is why our recruitment process is robust and values-driven:<br />
               <br />
-               <strong> Comprehensive Screening:</strong> Full DBS checks, reference verification, qualification validation, and right-to-
-                work compliance.<br />
-               <strong> Skills & Competency Assessment:</strong> Each candidate undergoes clinical skills evaluations and scenario-
-                based interviews to ensure they can handle real-world care situations.<br />
-               <strong> Specialist Pool: </strong> Access to Registered Nurses (RGN, RMN, RNLD), Support Workers, Complex Care
-                Practitioners, and professionals trained in mental health, autism, palliative care, and paediatric support.<br />
-               <strong> Flexible Engagement:</strong> We strive for outstanding outcomes in all we do.<br />
+              <p>&bull; <strong> Comprehensive Screening:</strong> Full DBS checks, reference verification, qualification validation, and right-to-
+                work compliance.</p>
+              <p>&bull; <strong> Skills & Competency Assessment:</strong> Each candidate undergoes clinical skills evaluations and scenario-
+                based interviews to ensure they can handle real-world care situations.</p>
+              <p>&bull; <strong> Specialist Pool: </strong> Access to Registered Nurses (RGN, RMN, RNLD), Support Workers, Complex Care
+                Practitioners, and professionals trained in mental health, autism, palliative care, and paediatric support.</p>
+              <p>&bull; <strong> Flexible Engagement:</strong> We strive for outstanding outcomes in all we do.</p>
               <br />
 
               <strong>Key Advantage: </strong> Our talent network is ready to deploy within hours, ensuring continuity of care even in high-
@@ -138,14 +138,14 @@ export default function Services() {
             <h1 className="font20 extraBold">HOME CARE SERVICES</h1>
 
             <p className="font15">
-              At <strong> Bluelight Healthcare</strong> we believe that home is more than just a place, it’s a source of comfort, familiarity, and
+              At <strong> Bluelight Healthcare</strong> we believe that home is more than just a place, it is a source of comfort, familiarity, and
               security. Our bespoke home care packages are designed to allow individuals to remain where they feel most at
               ease while receiving the right level of professional care and support to meet their physical, emotional, and social
               needs. <br />
               Every care plan is tailored to the person’s unique health requirements, lifestyle preferences, and personal goals,
               ensuring the right balance of independence and support.<br />
-              We understand that staffing is not simply about filling vacancies, it’s about ensuring the right fit for the client, the
-                team, and the individual being supported. That’s why our recruitment process is robust and values-driven:<br />
+              We understand that staffing is not simply about filling vacancies, it is about ensuring the right fit for the client, the
+                team, and the individual being supported. That is why our recruitment process is robust and values-driven:<br />
               <br />
 
               <h1 className="font18 extraBold">Our Services Include:</h1>
@@ -157,7 +157,7 @@ export default function Services() {
               <br />
               <strong> Medication Support</strong> <br />
               From simple prompts to complex regimes, we ensure medicines are administered safely and on time. Our staff are
-              trained in specialist techniques such as <strong> PEG feeding, tracheostomy care, and epilepsy management, </strong> ensuring
+              trained in specialist techniques such as PEG feeding, tracheostomy care, and epilepsy management, ensuring
               clinical safety in the home environment.<br />
               <br />
               <strong> Health Monitoring</strong> <br />
@@ -178,10 +178,10 @@ export default function Services() {
 
               <h1 className="font18 extraBold">We pride ourselves on being:</h1>
 
-               <strong> Flexible</strong> - adapting care as needs change. <br />
-               <strong> Responsive</strong> - able to step in quickly when extra support is needed. <br />
-               <strong> Person-Centred</strong> - always guided by the individual’s preferences, dignity, and independence. <br />
-               <strong> Clinically Led</strong> - with oversight from experienced healthcare professionals to maintain safety and quality. <br /> <br />
+              <p>&bull; <strong> Flexible</strong> - adapting care as needs change.</p>
+              <p>&bull; <strong> Responsive</strong> - able to step in quickly when extra support is needed..</p>
+              <p>&bull; <strong> Person-Centred</strong> - always guided by the individual’s preferences, dignity, and independence.</p>
+              <p>&bull; <strong> Clinically Led</strong> - with oversight from experienced healthcare professionals to maintain safety and quality.</p>
 
               With <strong> Bluelight Healthcare,</strong> clients and families have peace of mind knowing that care is safe, compassionate, and
               truly personalised.<br />
@@ -203,27 +203,27 @@ export default function Services() {
                 Our crisis service provides immediate solutions for:<br />
                 <br />
 
-                 <strong> Sudden Hospital Discharges</strong> – Rapid mobilisation of home or community-based care to prevent delayed
-                discharges or readmissions.<br />
-                 <strong> Breakdown in Care Arrangements </strong> – Whether due to illness, absence, or breakdown of a placement, we
-                ensure no one is left without support.<br />
-                 <strong> Safeguarding Concerns</strong> – Urgent protective care when an individual’s safety is at risk, ensuring they are
-                removed from harm’s way and stabilised.<br />
-                 <strong> Children’s Emergency Placements</strong> – Immediate safe placements for children and young people,
-                including those with complex behavioural, emotional, or clinical needs.<br />
+              <p>&bull; <strong> Sudden Hospital Discharges</strong> – Rapid mobilisation of home or community-based care to prevent delayed
+                discharges or readmissions.</p>
+              <p>&bull; <strong> Breakdown in Care Arrangements </strong> – Whether due to illness, absence, or breakdown of a placement, we
+                ensure no one is left without support.</p>
+              <p>&bull; <strong> Safeguarding Concerns</strong> – Urgent protective care when an individual’s safety is at risk, ensuring they are
+                removed from harm’s way and stabilised.</p>
+              <p>&bull; <strong> Children’s Emergency Placements</strong> – Immediate safe placements for children and young people,
+                including those with complex behavioural, emotional, or clinical needs.</p>
               <br /> <br />
 
               <h1 className="font18 extraBold">Our Crisis Response Capability </h1>
 
                 We bring structure, safety, and compassion to even the most challenging situations: <br />
                 <br />
-                 <strong> 24/7 On-Call Coordination</strong> - Our operations team can mobilise fully vetted and trained staff within hours.<br />
-                 <strong> Clinically Led Assessment </strong> – Upon arrival, we carry out a swift yet thorough risk and needs assessment to
-                ensure immediate safety and stability.<br />
-                 <strong> Short-Term Intensive SupportShort-Term Intensive Support</strong> – We provide high-level care in the moment, then work to transition the
-                individual into a sustainable long-term arrangement.<br />
-                 <strong> Specialist Expertise</strong> – Our teams are trained in Positive Behaviour Support (PBS), de-escalation
-                techniques, and trauma-informed practice, enabling us to work effectively in high-stress, high-risk environments.<br />
+              <p>&bull; <strong> 24/7 On-Call Coordination</strong> - Our operations team can mobilise fully vetted and trained staff within hours.</p>
+              <p>&bull; <strong>Clinically Led Assessment </strong> – Upon arrival, we carry out a swift yet thorough risk and needs assessment to
+                ensure immediate safety and stability.</p>
+              <p>&bull; <strong> Short-Term Intensive SupportShort-Term Intensive Support</strong> – We provide high-level care in the moment, then work to transition the
+                individual into a sustainable long-term arrangement.</p>
+              <p>&bull; <strong> Specialist Expertise</strong> – Our teams are trained in Positive Behaviour Support (PBS), de-escalation
+                techniques, and trauma-informed practice, enabling us to work effectively in high-stress, high-risk environments.</p>
                 <br />
 
               <h1 className="font18 extraBold">Our Approach </h1>
@@ -235,11 +235,12 @@ export default function Services() {
 
                 <strong> We focus on:</strong> <br /> <br/>
 
-                 <strong> Protecting dignity</strong> in moments of vulnerability. <br />
-                 <strong> Reducing risk </strong> through immediate, effective action. <br />
-                 <strong> Restoring stability</strong> so individuals and families can move forward with confidence. <br /> <br />
+              <p>&bull; <strong> Protecting dignity</strong> in moments of vulnerability. </p>
+              <p>&bull; <strong> Reducing risk </strong> through immediate, effective action.</p>
+              <p>&bull; <strong> Restoring stability</strong> so individuals and families can move forward with confidence.</p>
+              <br/>
 
-                With Bluelight Healthcare, you have a crisis response partner who is always ready, always professional, and always
+                With <strong>Bluelight Healthcare</strong>, you have a crisis response partner who is always ready, always professional, and always
                 committed to turning urgent situations into safe, manageable outcomes. <br /> <br /> <br />
 
               <h1 className="font18 extraBold">SUPPORTED LIVING SERVICES </h1>
@@ -252,11 +253,11 @@ export default function Services() {
 
                 We work with adults and young people with a wide range of needs, including: <br />
 
-                 Learning disabilities <br />
-                 Autism spectrum conditions <br />
-                 Mental health conditions<br /> 
-                 Physical disabilities<br />
-                 Complex health needs<br /><br />
+              <p>&bull; Learning disabilities </p>
+              <p>&bull; Autism spectrum conditions </p>
+              <p>&bull; Mental health conditions </p>
+              <p>&bull; Physical disabilities </p>
+              <p>&bull; Complex health needs </p> <br/>
 
                 Our approach combines flexibility, person-centred planning, and skilled support to help people live fulfilling,
                 meaningful lives in their own home or in shared accommodation.<br /> <br/> <br/>
@@ -300,10 +301,11 @@ export default function Services() {
 
                 Our focus is on: <br />
 
-                 <strong> Choice</strong> – Giving people control over their own support. <br />
-                 <strong> Ability, Not Disability </strong> – Building on strengths and potential rather than limitations. <br />
-                 <strong> Fostering Independence</strong> – Supporting people to achieve their personal goals, whether that’s managing their own home, starting a job, or taking part in community life. <br /> <br />
-
+              <p>&bull; <strong> Choice</strong> – Giving people control over their own support. </p>
+              <p>&bull; <strong> Ability, Not Disability </strong> – Building on strengths and potential rather than limitations. </p>
+              <p>&bull; <strong> Fostering Independence</strong> – Supporting people to achieve their personal goals, whether that is managing their own home, starting a job, or taking part in community life. </p>
+              
+              <br />
 
                 With <strong> Bluelight Healthcare, </strong> supported living isn’t just about providing care, it’s about unlocking potential and creating a life that’s safe, fulfilling, and truly independent.<br /> <br/>
               
