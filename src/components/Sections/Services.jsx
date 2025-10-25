@@ -94,7 +94,7 @@ export default function Services() {
               <br />
 
             <h1 className="font20 extraBold">OUR VISION</h1>
-              To be a leading provider of flexible, trusted healthcare and homecare services—respected for our
+              To be a leading provider of flexible, trusted healthcare and homecare services, respected for our
               quality, compassion, and the outcomes we deliver.<br />
               <br />
 
