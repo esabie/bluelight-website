@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
+import ContactImg1 from "../../assets/img/Contact_1.png";
+import ContactImg2 from "../../assets/img/Contact_2.png";
+import ContactImg3 from "../../assets/img/Contact_3.png";
 
 export default function Contact() {
   return (
@@ -109,5 +109,40 @@ const SumbitWrapper = styled.div`
   @media (max-width: 991px) {
     width: 100%;
     margin-bottom: 50px;
+  }
+`;
+const ValueGrid = styled.div`
+  display: grid;
+  /* Creates 3 columns for desktop, with equal spacing between them */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+
+  @media (max-width: 768px) {
+    /* Switches to 2 columns on tablet/mobile */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  @media (max-width: 480px) {
+    /* Switches to a single column on small phones */
+    grid-template-columns: 1fr;
+  }
+`;
+
+const ValueBlock = styled.div`
+  /* Uses the 'color' prop passed in the component to set the background */
+  background-color: ${(props) => props.color || "#f0f0f0"};
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Adds a subtle lift effect */
+  min-height: 100px; /* Ensures all blocks are at least this tall */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.5;
+
+  strong {
+    font-size: 16px;
+    margin-bottom: 5px;
   }
 `;
