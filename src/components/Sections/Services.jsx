@@ -5,10 +5,10 @@ import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage1 from "../../assets/img/add/First.png";
+import AddImage2 from "../../assets/img/add/second.png";
+import AddImage3 from "../../assets/img/add/Third.png";
+import AddImage4 from "../../assets/img/add/Fourth.png";
 
 export default function Services() {
   return (
@@ -32,7 +32,7 @@ export default function Services() {
               provider, offering both clinical staffing solutions and CQC-regulated homecare and crisis support
               across the UK. <br />
               <br />
-              From our earliest days, our focus has never shifted:{" "} care should always be personal,
+              From our earliest days, our focus has never shifted.{" "} Care should always be personal,
               responsive, and human. <br />
               <br />
               We believe that great care starts with great people. That is why we invest heavily in sourcing,
@@ -114,7 +114,7 @@ export default function Services() {
             <h1 className="font20 extraBold">SPECIALIST RECRUITMENT</h1>
 
             <p className="font15">
-              <strong> Bluelight Healthcare</strong>specialises in sourcing, vetting, and placing highly skilled healthcare professionals 
+              <strong> Bluelight Healthcare</strong> specialises in sourcing, vetting, and placing highly skilled healthcare professionals 
               to meet the evolving needs of the NHS, local authorities, private healthcare organisations, and community services.<br />
               <br />
               We understand that staffing is not simply about filling vacancies, it is about ensuring the right fit for the client, the

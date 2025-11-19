@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/bhc_home01.png";
+import HeaderImage from "../../assets/img/bhchome_01.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -11,7 +11,9 @@ export default function Header() {
   return (
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
+        
         <div>
+          
           <h1 className="extraBold font60">Welcome to Bluelight Healthcare Group.</h1>
           <h1 className="Bold font20">Specialist Recruitment | Homecare Services | Emergency Crisis Response | Supported living Services</h1>
           <HeaderP className="font13 semiBold">
