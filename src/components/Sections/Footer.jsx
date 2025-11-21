@@ -24,12 +24,12 @@ export default function Contact() {
                             alt="care logo"
                           />
               {/*<h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
-                Bluelight Healthcare Recruitment
+                Bluelight Healthcare Services
               </h1>*/}
             </Link>
             <StyleP className="whiteColor font13">
               © {getCurrentYear()} - <span className="whiteColor font13">
-                Bluelight Healthcare Recruitment</span> All Right Reserved
+                Bluelight Healthcare Services</span> All Right Reserved
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
