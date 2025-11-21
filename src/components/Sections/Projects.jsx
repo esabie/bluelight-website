@@ -10,7 +10,7 @@ import ProjectImg3 from "../../assets/img/projects/project_3.png";
 import ProjectImg4 from "../../assets/img/projects/project_4.png";
 import ProjectImg5 from "../../assets/img/projects/project_5.png";
 import ProjectImg6 from "../../assets/img/projects/project_6.png";
-import AddImage2 from "../../assets/img/add/add2.png";
+import AddImage2 from "../../assets/img/add/add_2.png";
 
 export default function Projects() {
   return (

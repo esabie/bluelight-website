@@ -18,8 +18,8 @@ export default function Header() {
           <h1 className="Bold font20">Specialist Recruitment | Homecare Services | Emergency Crisis Response | Supported living Services</h1>
           <HeaderP className="font13 semiBold">
             Bluelight is a trusted provider of high-quality healthcare staffing and bespoke homecare services
-            across the UK. Whether you&#39;re seeking qualified professionals to support regulated care settings,
-            or urgent in-home care for a child, adult, or vulnerable person in crisis we’re here, 24/7.
+            across the UK. Whether you are seeking qualified professionals to support regulated care settings,
+            or urgent in-home care for a child, adult, or vulnerable person in crisis we are here, 24/7.
             We work in partnership with NHS trusts, local authorities, hospitals, and families to provide safe,
             consistent, trauma-informed support, even at short notice.
           </HeaderP>
