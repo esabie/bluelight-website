@@ -35,7 +35,7 @@ export default function TopNavbar() {
               alt="care logo"
             />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              Bluelight Healthcare Recruitment
+              Bluelight Healthcare Services
             </h1>
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
