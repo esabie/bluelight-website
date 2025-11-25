@@ -11,16 +11,21 @@ export default function Header() {
   return (
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
-        
         <div>
-          
-          <h1 className="extraBold font60">Welcome to Bluelight Healthcare Group.</h1>
-          <h1 className="Bold font20">Specialist Recruitment | Homecare Services | Emergency Crisis Response | Supported living Services</h1>
-          <HeaderP className="font13 semiBold">
-            Bluelight is a trusted provider of high-quality healthcare staffing and bespoke homecare services
-            across the UK. Whether you are seeking qualified professionals to support regulated care settings,
-            or urgent in-home care for a child, adult, or vulnerable person in crisis we are here, 24/7.
-            We work in partnership with NHS trusts, local authorities, hospitals, and families to provide safe,
+          <h1 className="extraBold font60">
+            Welcome to Bluelight Healthcare Group.
+          </h1>
+          <h1 className="Bold font20">
+            Specialist Recruitment | Homecare Services | Emergency Crisis
+            Response | Supported living Services
+          </h1>
+          <HeaderP className="font13 semiBold" style={{ position:"relative", zIndex:10}}>
+            Bluelight is a trusted provider of high-quality healthcare staffing
+            and bespoke homecare services across the UK. Whether you are seeking
+            qualified professionals to support regulated care settings, or
+            urgent in-home care for a child, adult, or vulnerable person in
+            crisis we are here, 24/7. We work in partnership with NHS trusts,
+            local authorities, hospitals, and families to provide safe,
             consistent, trauma-informed support, even at short notice.
           </HeaderP>
           <BtnWrapper>
@@ -30,17 +35,30 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          <img
+            src="/static/media/bhchome_01.8fa469f3ae92c7d5170a.png"
+            alt="office"
+            style={{ width: "800px", height: "auto", borderRadius: "8px" }}
+          />
+
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>&quot;The referral process is simple and efficient. The team communicated updates daily and attended
-                    all required reviews, even at short notice.&quot;</em>
+                <em>
+                  &quot;The referral process is simple and efficient. The team
+                  communicated updates daily and attended all required reviews,
+                  even at short notice.&quot;
+                </em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Children’s Services Placement Officer</p>
+              <p
+                className="font13 orangeColor textRight"
+                style={{ marginTop: "10px" }}
+              >
+                Children’s Services Placement Officer
+              </p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
@@ -52,7 +70,6 @@ export default function Header() {
     </Wrapper>
   );
 }
-
 
 const Wrapper = styled.section`
   padding-top: 80px;
@@ -158,5 +175,3 @@ const DotsWrapper = styled.div`
     display: none;
   }
 `;
-
-
