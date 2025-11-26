@@ -4,11 +4,6 @@ import styled from "styled-components";
 import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
-// Assets
-import AddImage1 from "../../assets/img/add/First.png";
-import AddImage2 from "../../assets/img/add/second.png";
-import AddImage3 from "../../assets/img/add/Third.png";
-import AddImage4 from "../../assets/img/add/Fourth.png";
 
 export default function Services() {
   return (
