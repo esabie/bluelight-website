@@ -215,7 +215,7 @@ export default function Services() {
               <p>&bull; <strong> 24/7 On-Call Coordination</strong> - Our operations team can mobilise fully vetted and trained staff within hours.</p>
               <p>&bull; <strong>Clinically Led Assessment </strong> – Upon arrival, we carry out a swift yet thorough risk and needs assessment to
                 ensure immediate safety and stability.</p>
-              <p>&bull; <strong> Short-Term Intensive SupportShort-Term Intensive Support</strong> – We provide high-level care in the moment, then work to transition the
+              <p>&bull; <strong> Short-Term Intensive Support</strong> – We provide high-level care in the moment, then work to transition the
                 individual into a sustainable long-term arrangement.</p>
               <p>&bull; <strong> Specialist Expertise</strong> – Our teams are trained in Positive Behaviour Support (PBS), de-escalation
                 techniques, and trauma-informed practice, enabling us to work effectively in high-stress, high-risk environments.</p>
