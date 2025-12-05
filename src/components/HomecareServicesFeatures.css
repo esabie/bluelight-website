@@ -1,0 +1,82 @@
+/* BACKGROUND */
+.features-wrapper {
+  background: #f3f1ff;   /* pale lavender */
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.features-grid {
+  width: 100%;
+  max-width: 1500px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* EACH FEATURE BLOCK */
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* IMAGE */
+.feature-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* TITLE LABEL (navy bubble) */
+.feature-title {
+  margin-top: -20px;
+  background: #1c1c57;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  padding: 12px 20px;
+  border-radius: 30px;
+
+  width: fit-content;
+  min-width: 70%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+   position: relative;
+  z-index: 3; 
+}
+
+/* TEXT CARD (rounded grey bubble) */
+.feature-text {
+  background: #ffffff;
+  margin-top: -20px;
+  padding: 25px;
+  border-radius: 25px;
+
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 1200px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-title {
+    min-width: 60%;
+  }
+}

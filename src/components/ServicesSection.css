@@ -1,0 +1,159 @@
+/* OUTER WRAPPER WITH BACKGROUND */
+.svc-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background: #f3f1ff; /* pale lavender background */
+}
+
+/* MAIN CARD LAYOUT USING NAMED GRID AREAS */
+.svc-card {
+  width: 95%;
+  max-width: 1500px;
+  background: #f3f1ff;
+  border-radius: 40px;
+  padding: 40px;
+
+  display: grid;
+
+  /* left column = menu (fixed width), right column = image/text
+     row 1: menu | image
+     row 2: empty | text
+  */
+  grid-template-columns: 320px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "menu image"
+    ".    text";
+  gap: 40px;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+/* LEFT MENU - placed in the named grid area 'menu' */
+.svc-menu {
+  grid-area: menu;
+  background: #1c1c57;
+  color: white;
+  border-radius: 20px;
+  padding: 30px 25px;
+  height: fit-content;
+}
+
+.svc-menu h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.svc-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.svc-menu li {
+  font-size: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #d7d7ff;
+  transition: opacity 0.15s ease;
+}
+
+.svc-menu li:hover {
+  opacity: 0.85;
+}
+
+.svc-menu li.active {
+  color: #f9c94e; /* yellow highlight */
+  font-weight: 600;
+}
+
+/* IMAGE ON THE RIGHT — occupies the 'image' grid area (row 1, col 2) */
+.svc-hero-image {
+  grid-area: image;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  align-self: start;
+}
+
+.svc-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* TEXT — occupies the 'text' grid area (row 2, col 2) */
+.svc-text {
+  grid-area: text;
+  width: 100%;          /* ensure it fills the right column */
+  padding-right: 10px;  /* optional — controls inner spacing from right edge */
+  box-sizing: border-box;
+}
+
+/* typography for content */
+.svc-text h2 {
+  font-size: 32px;
+  color: #1c1c57;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.svc-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.svc-text ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.svc-text ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+/* ----------------- RESPONSIVE ----------------- */
+
+@media (max-width: 1100px) {
+  .svc-card {
+    /* switch to single column stacked layout for small screens */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "menu"
+      "image"
+      "text";
+    padding: 28px;
+    gap: 28px;
+  }
+
+  .svc-menu {
+    border-radius: 18px;
+    padding: 22px;
+  }
+
+  .svc-hero-image {
+    border-radius: 12px;
+  }
+
+  .svc-text {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .svc-text h2 {
+    font-size: 26px;
+  }
+
+  .svc-wrapper {
+    padding: 36px 12px;
+  }
+}

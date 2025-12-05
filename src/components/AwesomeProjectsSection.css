@@ -1,0 +1,50 @@
+/* BACKGROUND WRAPPER */
+.aps-wrapper {
+  background: #f5f3ff;
+  border-radius: 30px;
+  padding: 50px 50px 80px;
+  margin: 40px auto;
+}
+
+/* IMAGE ROW */
+.aps-images-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+/* INDIVIDUAL IMAGE */
+.aps-image {
+  width: 28%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* TEXT BLOCK */
+.aps-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1d2244;
+  max-width: 85%;
+  margin: 0 auto 25px;
+  text-align: left;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .aps-image {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .aps-image {
+    width: 100%;
+  }
+
+  .aps-text {
+    max-width: 95%;
+  }
+}

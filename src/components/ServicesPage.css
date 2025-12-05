@@ -1,0 +1,102 @@
+/* BACKGROUND WRAPPER */
+.svc-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background: #f3f1ff; /* Pale lavender background */
+}
+
+/* MAIN GRID CARD */
+.svc-card {
+  width: 95%;
+  max-width: 1500px;
+  background: #f3f1ff;
+  border-radius: 40px;
+  padding: 40px;
+
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "menu image"
+    ".    text";
+  gap: 40px;
+}
+
+/* MENU */
+.svc-menu {
+  grid-area: menu;
+  background: #1c1c57;
+  color: white;
+  padding: 30px;
+  border-radius: 22px;
+  height: fit-content;
+}
+
+.svc-menu h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.svc-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.svc-menu li {
+  padding: 10px 0;
+  color: #d7d7ff;
+  font-size: 16px;
+}
+
+.svc-menu li.active {
+  color: #f9c94e;
+  font-weight: bold;
+}
+
+/* HERO IMAGE */
+.svc-hero-image {
+  grid-area: image;
+  border-radius: 22px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.svc-hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* TEXT UNDER IMAGE */
+.svc-text {
+  grid-area: text;
+  padding-right: 20px;
+}
+
+.svc-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1c1c57;
+  margin-bottom: 15px;
+}
+
+.svc-text p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .svc-card {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "menu"
+      "image"
+      "text";
+  }
+}
