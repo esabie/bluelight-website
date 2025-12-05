@@ -1,0 +1,73 @@
+/* BACKGROUND */
+.ws-wrapper {
+  background: #f3f1ff;       /* Pale lavender */
+  padding: 60px 40px;
+}
+
+.ws-heading {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1c1c57;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.ws-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* EACH ITEM */
+.ws-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TOP NAVY CARD */
+.ws-top-card {
+  background: #1c1c57;
+  color: white;
+  padding: 25px 20px;
+  border-radius: 6px 6px 0 0;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* IMAGE BELOW */
+.ws-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 0 0 6px 6px;
+}
+
+.ws-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  align-items: stretch;   /* ensures equal height */
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .ws-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .ws-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ws-heading {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,96 @@
+.sl-wrapper {
+  background: #f5f3ff; /* soft lavender background */
+  padding: 40px 20px;
+  border-radius: 30px;
+}
+
+.sl-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+/* LEFT MENU */
+.sl-menu {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 20px;
+  width: 240px;
+}
+
+.sl-menu h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.sl-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sl-menu li {
+  padding: 10px 0;
+  color: #1d2244;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sl-menu li.active {
+  font-weight: 700;
+  color: #ffb400;
+  border-bottom: 2px solid #ffb400;
+}
+
+/* IMAGE */
+.sl-image-box {
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.sl-image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+/* TEXT SECTION */
+.sl-text-section {
+  max-width: 900px;
+  margin-left: 300px; /* aligns text under image */
+}
+
+.sl-text-section h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1d2244;
+  margin-bottom: 15px;
+}
+
+.sl-text-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1d2244;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .sl-container {
+    flex-direction: column;
+  }
+
+  .sl-text-section {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .sl-menu {
+    width: 100%;
+  }
+}
