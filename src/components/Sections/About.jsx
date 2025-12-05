@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import ClientSlider from "../Elements/ClientSlider";
+import AboutBanner from "./AboutBanner";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 

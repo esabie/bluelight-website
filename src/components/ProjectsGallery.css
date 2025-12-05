@@ -1,0 +1,43 @@
+/* MAIN WRAPPER (lavender background) */
+.pg-wrapper {
+  background: #f5f3ff;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 40px auto;
+}
+
+/* GRID LAYOUT */
+.pg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 60px; /* row gap | column gap */
+  justify-items: center;
+}
+
+/* IMAGE STYLING */
+.pg-img {
+  width: 100%;
+  max-width: 420px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 1000px) {
+  .pg-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .pg-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pg-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
