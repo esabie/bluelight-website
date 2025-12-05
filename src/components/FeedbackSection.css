@@ -1,0 +1,64 @@
+/* MAIN WRAPPER BACKGROUND */
+.fb-wrapper {
+  background: #f5f3ff;
+  padding: 60px 40px 100px;
+  border-radius: 30px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* TITLE */
+.fb-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #1d2244;
+  margin-bottom: 60px;
+}
+
+/* GRID OF CARDS */
+.fb-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* FEEDBACK CARD */
+.fb-card {
+  background: #171a52;
+  width: 320px;
+  padding: 40px 25px;
+  border-radius: 22px;
+  color: white;
+  position: relative;
+}
+
+/* GOLDEN QUOTE MARKS */
+.fb-quotes {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+}
+
+.quote {
+  font-size: 42px;
+  color: #e6ac2b;
+  font-weight: bold;
+}
+
+/* FEEDBACK TEXT */
+.fb-text {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .fb-card {
+    width: 90%;
+  }
+}

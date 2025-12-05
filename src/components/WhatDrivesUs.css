@@ -1,0 +1,69 @@
+/* Outer wrapper */
+.wd-wrapper {
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main card */
+.wd-card {
+  width: 90%;
+  max-width: 1300px;
+  background: #f3f1ff;
+  border-radius: 25px;
+  padding: 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* LEFT GRID — TWO ROWS WITH OFFSET */
+.wd-left-grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  position: relative;
+}
+
+/*** IMAGE STYLES ***/
+.wd-img {
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.wd-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* TOP IMAGE — full width */
+.top-img {
+  width: 100%;
+}
+
+/* BOTTOM IMAGE — OFFSET RIGHT AND DOWN */
+.bottom-img {
+  width: 80%;       /* narrower than top */
+  justify-self: end; /* shifts image to the right */
+  margin-top: -20px; /* pulls image upward slightly for stagger effect */
+}
+
+/* TEXT STYLES */
+.wd-text h3 {
+  color: #1c1c57;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.wd-text p {
+  color: #333;
+  line-height: 1.7;
+  font-size: 17px;
+  margin-bottom: 22px;
+}

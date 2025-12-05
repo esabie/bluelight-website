@@ -1,18 +1,32 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-// Screens
-import Landing from "./screens/Landing.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-export default function App() {
+import TopNavbar from "./components/Nav/TopNavbar";
+import Footer from "./components/Sections/Footer";
+
+import Home from "./pages/Home";
+import ServicesPage from "./pages/ServicesPage";
+import AboutUsPage from "./pages/AboutUsPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import TestimonialsPage from "./pages/TestimonialsPage";
+import ContactUsPage from "./pages/ContactUsPage";
+
+function App() {
   return (
-    <>
-      <Helmet>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;600;800&display=swap" rel="stylesheet" />
-      </Helmet>
-      <Landing />
-    </>
+    <Router>
+      <TopNavbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/about" element={<AboutUsPage />} />
+        <Route path="/testimonials" element={<TestimonialsPage />} />
+        <Route path="/contact" element={<ContactUsPage />} />
+      </Routes>
+
+      <Footer />
+    </Router>
   );
 }
 
+export default App;
