@@ -26,7 +26,7 @@ export default function Contact() {
             <div style={{ flex: "1", display: "flex", alignItems: "center" }}>
               <Link
                 className="flexCenter animate pointer"
-                to="home"
+                to="/"
                 smooth={true}
                 offset={-80}
               >
@@ -88,7 +88,7 @@ export default function Contact() {
                   <li>
                     <Link
                       className="whiteColor font13 pointer"
-                      to="services"
+                      to="About"
                       smooth
                       offset={-80}
                     >
