@@ -39,10 +39,10 @@
   }
   a {
     text-decoration: none!important;
-    color: #0B093B;
+    color: #f8f8f9;
   }
   a:hover {
-    color: #7620FF;
+    color: #ea9204;
   }
   input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 50px #fff inset; /* Change the color to your own background color */
@@ -105,7 +105,7 @@
   }
   .active {
     border-bottom: 2px solid #7620FF;
-    color: #7620FF;
+    color: #d78602;
   }
   .tag {
     padding: 5px 10px;
