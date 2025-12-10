@@ -8,7 +8,7 @@ export default function SupportedLiving() {
       <div className="sl-container">
 
         {/* LEFT MENU */}
-        <div className="sl-menu">
+        {/* <div className="sl-menu">
           <h3>Our Services</h3>
           <ul>
             <li>Specialist Recruitment</li>
@@ -17,7 +17,7 @@ export default function SupportedLiving() {
             <li className="active">Supported living Services</li>
             <li>Rehabilitation Services</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* IMAGE */}
         <div className="sl-image-box">

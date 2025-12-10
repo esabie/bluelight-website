@@ -8,7 +8,7 @@ export default function ServicesHomeCare() {
       <div className="svc-card">
 
         {/* LEFT MENU */}
-        <div className="svc-menu">
+        {/* <div className="svc-menu">
           <h3>Our Services</h3>
           <ul>
             <li>Specialist Recruitment</li>
@@ -17,7 +17,7 @@ export default function ServicesHomeCare() {
             <li>Supported living Services</li>
             <li>Rehabilitation Services</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* HERO IMAGE */}
         <div className="svc-hero-image">

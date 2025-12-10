@@ -9,7 +9,7 @@ export default function EmergencyCrisisResponse() {
       <div className="ecr-content">
 
         {/* LEFT SIDEBAR */}
-        <div className="ecr-sidebar">
+        {/* <div className="ecr-sidebar">
           <h3>Our Services</h3>
           <ul>
             <li>Specialist Recruitment</li>
@@ -18,7 +18,7 @@ export default function EmergencyCrisisResponse() {
             <li>Supported living Services</li>
             <li>Rehabilitation Services</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* RIGHT IMAGE */}
         <div className="ecr-image-container">

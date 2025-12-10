@@ -8,7 +8,7 @@ export default function ServicesSection() {
       <div className="svc-card">
 
         {/* LEFT MENU */}
-        <div className="svc-menu">
+        {/* <div className="svc-menu">
           <h3>Our Services</h3>
 
           <ul>
@@ -18,7 +18,7 @@ export default function ServicesSection() {
             <li>Supported Living Services</li>
             <li>Rehabilitation Services</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* RIGHT IMAGE */}
         <div className="svc-hero-image">

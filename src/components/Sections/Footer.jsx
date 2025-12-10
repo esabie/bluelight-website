@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+import ClientSlider from "../Elements/ClientSlider";
+
 // Assets
 import LogoImg from "../../assets/svg/Logo";
 import Logo from "../../assets/img/clients/bhc_logo3.png";
@@ -12,6 +15,11 @@ export default function Contact() {
 
   return (
     <Wrapper>
+      <div className="lightBg" style={{ padding: "50px 0" }}>
+              <div className="container">
+                <ClientSlider />
+              </div>
+            </div>
       <div className="darkBg">
         <div className="container">
           <InnerWrapper
@@ -68,6 +76,16 @@ export default function Contact() {
                     </Link>
                   </li> */}
                   <li>
+                    <Link
+                      className="whiteColor font13 pointer"
+                      to="anti-slavery-policy"
+                      smooth
+                      offset={-80}
+                    >
+                      Human Trafficking Policy
+                    </Link>
+                  </li>
+                  <li>
                     <a
                       className="whiteColor font13 pointer"
                       href="https://bluelighthealthcare.com/carbon_docs/Bluelight-Healthcare-Recruitment-Carbon-.pdf"
@@ -86,24 +104,20 @@ export default function Contact() {
                     </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       className="whiteColor font13 pointer"
-                      to="About"
-                      smooth
-                      offset={-80}
+                      href="https://bluelight-website-wip.vercel.app/About"
                     >
                       About Us
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       className="whiteColor font13 pointer"
-                      to="contact"
-                      smooth
-                      offset={-80}
+                      href="https://bluelight-website-wip.vercel.app/contact"
                     >
                       Contact
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>

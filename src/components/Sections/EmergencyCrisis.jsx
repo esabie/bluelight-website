@@ -11,11 +11,11 @@ export default function EmergencyCrisis() {
       <img
         src={EmergencyResponseImage} // your real image path
         alt="Emergency response Banner"
-        className="absolute top-0 left-0 w-screen h-screen object-cover scale-[1.15]"
+        className="absolute top-0 left-0  object-cover scale-[1.15]"
       />
 
       {/* OPTIONAL DARK OVERLAY */}
-      <div className="absolute inset-0 bg-black/40"></div>
+
 
       {/* TEXT CONTENT */}
       <div className="
