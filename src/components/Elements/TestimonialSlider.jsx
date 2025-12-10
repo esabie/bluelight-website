@@ -33,42 +33,36 @@ export default function TestimonialSlider() {
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="&quot;Bluelight’s response time was exceptional. Within hours, we had staff on site who understood
-                the child’s needs and worked in line with safeguarding expectations. It made a real difference
-                during a difficult weekend.&quot;"
-            author="Emergency Duty Social Worker"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="&quot;What stood out was the professionalism, transparency, and ability to stabilise very high-risk
-                cases in unregulated settings. We felt reassured every step of the way.&quot;"
+            text="&quot;Bluelight Healthcare has consistently demonstrated professionalism, flexibility, and strong
+            communication. Their willingness to adapt to complex and changing needs has been key to
+            ensuring safe and positive care outcomes for some of our most vulnerable residents.&quot;"
             author="Local Authority Commissioner"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="&quot;The referral process is simple and efficient. The team communicated updates daily and attended
-                all required reviews, even at short notice.&quot;"
-            author="Children’s Services Placement Officer"
+            text="&quot;Before support began, my son struggled with daily routines and often became distressed when
+            leaving the house. The care team introduced structured activities, sensory support, and gentle
+            encouragement. Within weeks, he became more confident in public settings, now enjoys
+            community outings, and has built a trusting relationship with his regular carers.quot;"
+            author="Family Testimonial 1 (Parent of a child with complex needs)"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="&quot;I was exhausted trying to manage my husband’s care alone. The team provided not just practical
+            support, but emotional reassurance. They’ve helped him regain independence in personal care,
+            improved his mobility through gentle exercises, and given me peace of mind knowing he’s safe
+            and well looked after.&quot;"
+            author="Family Testimonial 2 (Spouse of an adult with long-term health condition)"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="The carers respect my independence but are always there when I need them. Since starting the
+            service, I’ve been able to attend social groups again, something I thought I’d lost forever. This
+            has made a huge difference to my mental health and wellbeing."
+            author="Patient Testimonial (Adult with physical disabilities):"
           />
         </LogoWrapper>
       </Slider>

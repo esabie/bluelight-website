@@ -7,7 +7,7 @@ import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
-import Logo from "../../assets/img/clients/bhc_logo.png"
+import Logo from "../../assets/img/clients/bhc_logo.png";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
 export default function TopNavbar() {
@@ -21,45 +21,146 @@ export default function TopNavbar() {
     };
   }, [y]);
 
-
   return (
     <>
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-      <Wrapper className="flexCenter animate darkBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
+      <Wrapper
+        className="flexCenter animate darkBg"
+        style={y > 100 ? { height: "60px" } : { height: "80px" }}
+      >
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="/" smooth={true}>
             {/*<LogoIcon />*/}
             <img
               src={Logo}
-              style={{ width: '90px', height: '90px' }}
+              style={{ width: "90px", height: "90px" }}
               alt="care logo"
             />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               Bluelight Healthcare Group
             </h1>
           </Link>
-          <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
+          <BurderWrapper
+            className="pointer"
+            onClick={() => toggleSidebar(!sidebarOpen)}
+          >
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="/"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 Home
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="About" spy={true} smooth={true} offset={-80}>
-                About US
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                About Us
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
+
+            <li className="relative semiBold font15 pointer group">
+              {/* MAIN LINK */}
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                className="flex items-center gap-1"
+              >
                 Our Services
+                <span className="ml-1 text-sm">&#9662;</span>
               </Link>
+
+              {/* FIXED DROPDOWN */}
+              <ul
+                className="
+      absolute left-0 top-full
+      mt-0
+      hidden group-hover:flex
+      flex-col
+      bg-[#0a0e2e]   /* NAVY BACKGROUND */
+      shadow-lg
+      rounded-md
+      py-2
+      min-w-48
+      w-max
+      z-50
+    "
+              >
+                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                  <Link
+                    to="services/specialist-recruitment"
+                    smooth={true}
+                    offset={-80}
+                  >
+                    Specialist Recruitment
+                  </Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                  <Link
+                    to="services/homecare-services"
+                    smooth={true}
+                    offset={-80}
+                  >
+                    Homecare Services
+                  </Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                  <Link
+                    to="services/emergency-crisis-response"
+                    smooth={true}
+                    offset={-80}
+                  >
+                    Emergency Crisis Response
+                  </Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                  <Link
+                    to="services/supported-living-services"
+                    smooth={true}
+                    offset={-80}
+                  >
+                    Supported Living Services
+                  </Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                  <Link
+                    to="services/rehabilitation-services"
+                    smooth={true}
+                    offset={-80}
+                  >
+                    Rehabilitation Services
+                  </Link>
+                </li>
+              </ul>
             </li>
+
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="Testimonials" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="Testimonials"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 Testimonials
               </Link>
             </li>
@@ -69,7 +170,14 @@ export default function TopNavbar() {
               </Link>
             </li>*/}
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
                 Contact US
               </Link>
             </li>
@@ -102,7 +210,7 @@ const Wrapper = styled.nav`
 const NavInner = styled.div`
   position: relative;
   height: 100%;
-`
+`;
 const BurderWrapper = styled.button`
   outline: none;
   border: 0px;
@@ -125,5 +233,3 @@ const UlWrapperRight = styled.ul`
     display: none;
   }
 `;
-
-

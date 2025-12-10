@@ -24,19 +24,19 @@ export default function ServicesPage() {
   return (
       <>
           <ServicesBanner />
-          <ServicesSection />
+          {/* <ServicesSection /> */}
           <ServicesHomeCareBanner />
-          <ServicesHomeCare />
-          <HomecareServicesFeatures />
-          <WhatSetsUsApart />
+          {/* <ServicesHomeCare /> */}
+          {/* <HomecareServicesFeatures /> */}
+          {/* <WhatSetsUsApart /> */}
           <EmergencyCrisis />
-          <EmergencyCrisisResponse />
+          {/* <EmergencyCrisisResponse />
           <CrisisSolutions />
-          <StepIn />
-          <SupportedLiving />
+          <StepIn /> */}
+          {/* <SupportedLiving />
           <SupportedLivingServices />
           <NeedsSupport />
-          <Ethos />  
+          <Ethos />   */}
           <AwesomeProjects />
           <AwesomeProjectsSection />
           <ProjectsGallery />
