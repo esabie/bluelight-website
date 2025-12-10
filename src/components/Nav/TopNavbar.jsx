@@ -95,31 +95,31 @@ export default function TopNavbar() {
                   z-50
                 "
               >
-                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
                   <Link to="/services/specialist-recruitment">
                     Specialist Recruitment
                   </Link>
                 </li>
 
-                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
                   <Link to="/services/homecare-services">
                     Homecare Services
                   </Link>
                 </li>
 
-                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
                   <Link to="/services/emergency-crisis-response">
                     Emergency Crisis Response
                   </Link>
                 </li>
 
-                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
                   <Link to="/services/supported-living-services">
                     Supported Living Services
                   </Link>
                 </li>
 
-                <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
                   <Link to="/services/rehabilitation-services">
                     Rehabilitation Services
                   </Link>
@@ -127,7 +127,7 @@ export default function TopNavbar() {
               </ul>
             </li>
 
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font15 text-white pointer">
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
@@ -144,7 +144,7 @@ export default function TopNavbar() {
                 Pricing
               </Link>
             </li>*/}
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font15 text-white pointer">
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
