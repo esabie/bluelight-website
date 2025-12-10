@@ -74,78 +74,53 @@ export default function TopNavbar() {
             </li>
 
             <li className="relative semiBold font15 pointer group">
-              {/* MAIN LINK */}
-              <Link
-                activeClass="active"
-                style={{ padding: "10px 15px" }}
-                to="services"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                className="flex items-center gap-1"
-              >
+              {/* MAIN BUTTON (no scroll here, use a normal clickable div or link) */}
+              <div className="flex items-center text-white gap-1 px-4 py-2 cursor-pointer">
                 Our Services
                 <span className="ml-1 text-sm">&#9662;</span>
-              </Link>
+              </div>
 
               {/* FIXED DROPDOWN */}
               <ul
                 className="
-      absolute left-0 top-full
-      mt-0
-      hidden group-hover:flex
-      flex-col
-      bg-[#0a0e2e]   /* NAVY BACKGROUND */
-      shadow-lg
-      rounded-md
-      py-2
-      min-w-48
-      w-max
-      z-50
-    "
+                  absolute left-0 top-full
+                  mt-1
+                  hidden group-hover:flex
+                  flex-col
+                  bg-[#0a0e2e]
+                  shadow-lg
+                  rounded-md
+                  py-2
+                  min-w-60
+                  z-50
+                "
               >
                 <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
-                  <Link
-                    to="services/specialist-recruitment"
-                    smooth={true}
-                    offset={-80}
-                  >
+                  <Link to="/services/specialist-recruitment">
                     Specialist Recruitment
                   </Link>
                 </li>
+
                 <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
-                  <Link
-                    to="services/homecare-services"
-                    smooth={true}
-                    offset={-80}
-                  >
+                  <Link to="/services/homecare-services">
                     Homecare Services
                   </Link>
                 </li>
+
                 <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
-                  <Link
-                    to="services/emergency-crisis-response"
-                    smooth={true}
-                    offset={-80}
-                  >
+                  <Link to="/services/emergency-crisis-response">
                     Emergency Crisis Response
                   </Link>
                 </li>
+
                 <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
-                  <Link
-                    to="services/supported-living-services"
-                    smooth={true}
-                    offset={-80}
-                  >
+                  <Link to="/services/supported-living-services">
                     Supported Living Services
                   </Link>
                 </li>
+
                 <li className="px-4 py-2 hover:bg-blue-500 cursor-pointer">
-                  <Link
-                    to="services/rehabilitation-services"
-                    smooth={true}
-                    offset={-80}
-                  >
+                  <Link to="/services/rehabilitation-services">
                     Rehabilitation Services
                   </Link>
                 </li>
