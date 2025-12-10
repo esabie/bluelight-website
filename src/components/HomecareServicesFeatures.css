@@ -2,10 +2,13 @@
 .features-wrapper {
   background: #f3f1ff;   /* pale lavender */
   padding: 60px 40px;
+
   display: flex;
   justify-content: center;
+  align-items: center; /* NEW: vertically centers content */
 }
 
+/* GRID CONTAINER */
 .features-grid {
   width: 100%;
   max-width: 1500px;
@@ -13,13 +16,18 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+
+  justify-items: center;  /* NEW: centers each card in its grid cell */
+  align-items: start;     /* ensures uniform alignment */
 }
 
 /* EACH FEATURE BLOCK */
 .feature-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* centers image + title + text */
+  width: 100%;
+  max-width: 320px; /* NEW: ensures equal card width */
 }
 
 /* IMAGE */
@@ -46,7 +54,7 @@
   min-width: 70%;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 
-   position: relative;
+  position: relative;
   z-index: 3; 
 }
 
@@ -61,6 +69,8 @@
   line-height: 1.6;
   color: #333;
   text-align: center;
+
+  width: 100%; /* NEW: full width under the title */
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
@@ -68,6 +78,7 @@
 @media (max-width: 1200px) {
   .features-grid {
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 }
 
