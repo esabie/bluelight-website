@@ -30,7 +30,7 @@ export default function TopNavbar() {
         style={y > 100 ? { height: "60px" } : { height: "80px" }}
       >
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="/" smooth={true}>
+          <Link className="pointer text-white flexNullCenter" to="/" smooth={true}>
             {/*<LogoIcon />*/}
             <img
               src={Logo}
@@ -48,7 +48,7 @@ export default function TopNavbar() {
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font15 text-white pointer">
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
@@ -60,7 +60,7 @@ export default function TopNavbar() {
                 Home
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font15 text-white pointer">
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
