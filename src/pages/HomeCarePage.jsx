@@ -11,7 +11,7 @@ export default function ContactUs() {
         {/* <ServicesHomeCareBanner /> */}
         <HomeCare  />
         <ServicesHomeCare />
-        <HomecareServicesFeatures />
+        <HomecareServicesFeatures  />
         <WhatSetsUsApart />
         
     </>
