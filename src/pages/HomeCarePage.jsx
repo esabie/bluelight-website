@@ -1,6 +1,7 @@
 import ServicesHomeCare from "../components/Sections/ServicesHomecare";
 import HomecareServicesFeatures from "../components/Sections/HomecareServicesFeatures";
 import WhatSetsUsApart from "../components/Sections/WhatSetsUsApart";
+import HomeCare from "../components/Sections/homecare_banner";
 // import ServicesHomeCareBanner from "../components/Sections/ServicesHomeCareBanner";
 
 export default function ContactUs() {
@@ -8,6 +9,7 @@ export default function ContactUs() {
   return (
     <>
         {/* <ServicesHomeCareBanner /> */}
+        <HomeCare />
         <ServicesHomeCare />
         <HomecareServicesFeatures />
         <WhatSetsUsApart />
