@@ -34,7 +34,20 @@
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
+.top-img {
+  padding-top: 80px;  /* Push image down from navbar */
+}
+
 .wd-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+/* .wd-img img {
   width: 100%;
   height: auto;
   display: block;
@@ -44,7 +57,7 @@
 /* TOP IMAGE — full width */
 .top-img {
   width: 100%;
-}
+} */
 
 /* BOTTOM IMAGE — OFFSET RIGHT AND DOWN */
 .bottom-img {

@@ -1,0 +1,105 @@
+/* wrapper / background */
+.gallery-wrapper {
+  background: #f3f1ff; /* pale lavender */
+  padding: 48px 28px;
+  display: flex;
+  justify-content: center;
+}
+
+/* center container */
+.gallery-container {
+  width: 100%;
+  max-width: 1400px;
+  border-radius: 28px;
+  padding: 36px;
+  box-sizing: border-box;
+}
+
+/* main grid: 2 columns (left large, right grid) */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr; /* left wider */
+  gap: 28px;
+  align-items: start;
+}
+
+/* large image container */
+.gallery-large {
+  width: 100%;
+}
+
+.img-large {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+  box-shadow: 0 6px 24px rgba(16,24,40,0.08);
+}
+
+/* right column: grid of small images */
+.gallery-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 160px;
+  gap: 18px;
+}
+
+/* each tile */
+.gallery-tile {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  box-shadow: 0 6px 20px rgba(16,24,40,0.06);
+}
+
+.img-small {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Give first tile on right a taller row to mimic screenshot:
+   -> make top-left (first) span 2 rows (tall column effect). */
+.gallery-right .gallery-tile:nth-child(1) {
+  grid-row: span 2;
+}
+
+/* Responsive: stack on narrow screens */
+@media (max-width: 960px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img-large {
+    height: 360px;
+  }
+
+  .gallery-right {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 140px;
+  }
+
+  /* remove the big-span on very narrow screens to keep consistent */
+  .gallery-right .gallery-tile:nth-child(1) {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-container {
+    padding: 20px;
+  }
+
+  .gallery-right {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 140px;
+    gap: 12px;
+  }
+}

@@ -9,14 +9,15 @@ export default function Blog() {
   return (
     <Wrapper id="blog">
       <div className="lightBg">
-        <div className="lightBg" style={{padding: '50px 0'}}>
+        <div className="lightBg" style={{padding: '90px 0'}}>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Feedback from External Professionals &amp; Families</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              Bluelight Healthcare has been priviledged to provide a wide range of individuals and families across 
+              Bedfordshire, working in partnership with commissioners to deliver high-quality, person-centered care.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Below are anonymised accounts from existing commissioners, families, and patients.
             </p>
           </HeaderInfo>
           <TestimonialSlider />
