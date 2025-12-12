@@ -28,7 +28,7 @@
   position: relative;
 }
 
-/*** IMAGE STYLES ***/
+/* IMAGE STYLES */
 .wd-img {
   border-radius: 22px;
   overflow: hidden;
@@ -36,7 +36,7 @@
 }
 
 .top-img {
-  padding-top: 80px;  /* Push image down from navbar */
+  padding-top: 80px; 
 }
 
 .wd-img img {
@@ -50,7 +50,7 @@
 /* TOP IMAGE — full width */
 .top-img {
   width: 100%;
-} */
+} 
 
 /* BOTTOM IMAGE — OFFSET RIGHT AND DOWN */
 .bottom-img {
