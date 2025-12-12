@@ -10,7 +10,7 @@ export default function ValuesSection() {
         {/* -------- TOP ROW -------- */}
         <div className="values-grid-top">
 
-          {/* Card 1 */}
+          {/* Card 1  */}
           <div className="values-card">
             <h3>Our Commitment to Quality & Safety</h3>
             <ul>
