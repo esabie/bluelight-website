@@ -12,7 +12,7 @@ export default function ContactUs() {
         <HomeCare  />
         <ServicesHomeCare />
         <HomecareServicesFeatures  />
-        <WhatSetsUsApart />
+        <WhatSetsUsApart  />
         
     </>
   );
