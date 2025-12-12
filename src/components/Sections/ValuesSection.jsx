@@ -21,7 +21,7 @@ export default function ValuesSection() {
             </ul>
           </div>
 
-          {/* Card 2 */}
+          {/* Card 2  */}
           <div className="values-card">
             <h3>OUR CORE VALUES</h3>
             <ul>
