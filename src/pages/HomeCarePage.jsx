@@ -9,7 +9,7 @@ export default function ContactUs() {
   return (
     <>
         {/* <ServicesHomeCareBanner /> */}
-        <HomeCare  />
+        <HomeCare />
         <ServicesHomeCare />
         <HomecareServicesFeatures  />
         <WhatSetsUsApart  />
