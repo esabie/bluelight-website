@@ -124,6 +124,16 @@ export default function TopNavbar() {
                     Rehabilitation Services
                   </Link>
                 </li>
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
+                  <Link to="/awesome-project">
+                    Our Awesome Project
+                  </Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
+                  <Link to="creativity">
+                    Our Study of Creativity
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="semiBold font15 text-white pointer">

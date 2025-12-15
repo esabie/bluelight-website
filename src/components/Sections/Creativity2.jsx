@@ -1,5 +1,5 @@
 import React from "react";
-import AboutDriveImage1 from "../../assets/img/Creativity2.jpg";
+import AboutDriveImage1 from "../../assets/img/creativity3.jpg";
 import AboutDriveImage2 from "../../assets/img/drive2.jpg";
 import "../WhatDrivesUs.css";
 

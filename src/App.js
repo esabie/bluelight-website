@@ -16,6 +16,7 @@ import SupportedLivingPage from "./pages/SupportedLivingPage";
 import RehabPage from "./pages/RehabPage";
 import AntiSlaveryPage from "./pages/AntiSlaveryPage";
 import LiveJobsPage from "./pages/LiveJobsPage";
+import CreativityPage from "./pages/CreativityPage";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
         <Route path="services/rehabilitation-services" element={<RehabPage />} />
         <Route path="/anti-slavery-policy" element={<AntiSlaveryPage />} />
         <Route path="live-jobs" element={<LiveJobsPage />} />
+        <Route path="/awesome-project" element={<ProjectsPage />} />
+        <Route path="/creativity" element={<CreativityPage />} />
         
       </Routes>
 

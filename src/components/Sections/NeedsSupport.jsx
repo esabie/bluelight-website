@@ -6,15 +6,15 @@ import Need1 from "../../assets/img/needs1.jpg";
 import Need2 from "../../assets/img/needs2.jpg";
 import Need3 from "../../assets/img/needs3.jpg";
 import Need4 from "../../assets/img/needs4.jpg";
-import Need5 from "../../assets/img/needs5.jpg";
+import Need5 from "../../assets/img/needs6.jpg";
 
 export default function NeedsSupport() {
   const items = [
     { img: Need1, label: "Complex health needs" },
     { img: Need2, label: "Learning disabilities" },
-    { img: Need3, label: "Autism spectrum conditions" },
-    { img: Need4, label: "Mental health conditions" },
-    { img: Need5, label: "Physical disabilities" },
+    { img: Need5, label: "Autism spectrum conditions" },
+    { img: Need3, label: "Mental health conditions" },
+    { img: Need4, label: "Physical disabilities" },
   ];
 
   return (
