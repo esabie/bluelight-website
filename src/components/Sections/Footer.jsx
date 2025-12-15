@@ -190,9 +190,7 @@ export default function Contact() {
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="whiteColor font13">📞 0208 233 2999</li>
                   <li className="whiteColor font13">✉️ info@bluelighthealthcare.com</li>
-                  <li className="whiteColor font13">
-                    📍 CEME Campus, Marsh Way, Rainham RM13 8EU, United Kingdom
-                  </li>
+                  <li className="whiteColor font13">📍 CEME Campus, Marsh Way, Rainham RM13 8EU, United Kingdom</li>
                 </ul>
               </div>
             </div>

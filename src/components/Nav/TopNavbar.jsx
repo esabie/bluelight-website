@@ -153,7 +153,7 @@ export default function TopNavbar() {
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
-                to="Recruitment"
+                to="recruitment"
                 spy={true}
                 smooth={true}
                 offset={-80}
