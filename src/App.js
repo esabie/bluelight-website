@@ -17,6 +17,7 @@ import RehabPage from "./pages/RehabPage";
 import AntiSlaveryPage from "./pages/AntiSlaveryPage";
 import LiveJobsPage from "./pages/LiveJobsPage";
 import CreativityPage from "./pages/CreativityPage";
+import RecruitmentPage from "./pages/RecruitmentPage";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="live-jobs" element={<LiveJobsPage />} />
         <Route path="/awesome-project" element={<ProjectsPage />} />
         <Route path="/creativity" element={<CreativityPage />} />
+        <Route path="/recruitment" element={<RecruitmentPage />} />
         
       </Routes>
 
