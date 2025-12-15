@@ -3,6 +3,12 @@ import heroImg from "../../assets/img/specialistt-section.jpg";
 import docImg from "../../assets/img/recruitment.jpg";
 import nurseImg from "../../assets/img/recruitment2.jpg";
 import careImg from "../../assets/img/recruitment4.jpg";
+import registerImg from "../../assets/img/register2.jpg";
+import referImg from "../../assets/img/refer.jpg";
+import alliedImg from "../../assets/img/allied.jpg";
+import primaryImg from "../../assets/img/primaryCare.jpg";
+import nursingImg from "../../assets/img/nursing.jpg";
+
 import "../OurCandidates.css";
 
 export default function OurCandidates() {
@@ -38,7 +44,7 @@ export default function OurCandidates() {
           </div>
 
           <div className="candidate-card">
-            <img src={nurseImg} alt="Nursing" />
+            <img src={nursingImg} alt="Nursing" />
             <h3>Nursing & Healthcare</h3>
             <p>
               We offer exclusive NHS & private nursing opportunities through a
@@ -49,7 +55,7 @@ export default function OurCandidates() {
           </div>
 
           <div className="candidate-card">
-            <img src={careImg} alt="Primary Care" />
+            <img src={primaryImg} alt="Primary Care" />
             <h3>Primary Care</h3>
             <p>
               We recruit the top medical and healthcare staff in the country
@@ -60,7 +66,7 @@ export default function OurCandidates() {
           </div>
 
           <div className="candidate-card">
-            <img src={careImg} alt="Allied Health" />
+            <img src={alliedImg} alt="Allied Health" />
             <h3>Allied Health</h3>
             <p>
               Allied Health Professionals have unrivalled job opportunities, 
@@ -71,7 +77,7 @@ export default function OurCandidates() {
           </div>
 
           <div className="candidate-card">
-            <img src={careImg} alt="Register" />
+            <img src={registerImg} alt="Register" />
             <h3>Register</h3>
             <p>
               Quick registration. Register with us today and start your career 
@@ -82,7 +88,7 @@ export default function OurCandidates() {
           </div>
 
           <div className="candidate-card">
-            <img src={careImg} alt="Refer" />
+            <img src={referImg} alt="Refer" />
             <h3>Refer a friend</h3>
             <p>
               Quick registration. Register with us today and start your career as 
