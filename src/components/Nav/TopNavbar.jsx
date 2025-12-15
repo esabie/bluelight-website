@@ -7,7 +7,7 @@ import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
-import Logo from "../../assets/img/clients/bhc_logo.png";
+import Logo from "../../assets/img/bhc_logo3.jpg";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
 export default function TopNavbar() {
@@ -29,17 +29,17 @@ export default function TopNavbar() {
         className="flexCenter animate darkBg"
         style={y > 100 ? { height: "60px" } : { height: "80px" }}
       >
-        <NavInner className="container flexSpaceCenter">
-          <Link className="pointer text-white flexNullCenter" to="/" smooth={true}>
+        <NavInner className="container flex justify-between items-center">
+          <Link className="pointer text-white flex items-center" to="/" smooth={true}>
             {/*<LogoIcon />*/}
             <img
               src={Logo}
-              style={{ width: "90px", height: "90px" }}
+              style={{ width: "360px", height: "80px" }}
               alt="care logo"
             />
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
+            {/* <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               Bluelight Healthcare Group
-            </h1>
+            </h1> */}
           </Link>
           <BurderWrapper
             className="pointer"
@@ -138,47 +138,33 @@ export default function TopNavbar() {
                 Testimonials
               </Link>
             </li>
-            
-            <li className="relative semiBold font15 pointer group">
-              {/* MAIN BUTTON (no scroll here, use a normal clickable div or link) */}
-              <div className="flex items-center text-white gap-1 px-4 py-2 cursor-pointer">
-                Recruitment
-                <span className="ml-1 text-sm">&#9662;</span>
-              </div>
 
-              {/* FIXED DROPDOWN */}
-              <ul
-                className="
-                  absolute left-0 top-full
-                  mt-1
-                  hidden group-hover:flex
-                  flex-col
-                  bg-[#0a0e2e]
-                  shadow-lg
-                  rounded-md
-                  py-2
-                  min-w-60
-                  z-50
-                "
+            <li className="semiBold font15 text-white pointer">
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="Recruitment"
+                spy={true}
+                smooth={true}
+                offset={-80}
               >
-                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
-                  <Link to="/">
-                    Live Jobs
-                  </Link>
-                </li>
-
-                <li className="px-4 py-2 hover:bg-blue-500 text-white cursor-pointer">
-                  <Link to="/">
-                    Recruitment
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            {/*<li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>
-                Pricing
+                Recruitment
               </Link>
-            </li>*/}
+            </li>
+
+            <li className="semiBold font15 text-white pointer">
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="live-jobs"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                Live Jobs
+              </Link>
+            </li>
+          
             <li className="semiBold font15 text-white pointer">
               <Link
                 activeClass="active"

@@ -6,7 +6,7 @@ import ClientSlider from "../Elements/ClientSlider";
 
 // Assets
 import LogoImg from "../../assets/svg/Logo";
-import Logo from "../../assets/img/clients/bhc_logo3.png";
+import Logo from "../../assets/img/bhc_logo3.jpg";
 
 export default function Contact() {
   const getCurrentYear = () => {

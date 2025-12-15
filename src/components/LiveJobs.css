@@ -1,0 +1,125 @@
+.jobs-page {
+  background: #f6f8fc;
+  padding-bottom: 80px;
+}
+
+/* HERO */
+.jobs-hero {
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(8, 12, 45, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-overlay p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.hero-overlay span {
+  margin: 0 8px;
+}
+
+/* SEARCH BAR */
+.jobs-search {
+  max-width: 1100px;
+  margin: 20px auto 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+.jobs-search input {
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.jobs-search button {
+  background: #1c2a57;
+  color: white;
+  border: none;
+  padding: 0 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* JOB CARDS */
+.jobs-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.job-card {
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-card h3 {
+  background: #1c2a57;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.job-card p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #333;
+}
+
+.more-btn {
+  margin-top: 15px;
+  background: #dfa226;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .jobs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .jobs-search {
+    grid-template-columns: 1fr;
+  }
+
+  .jobs-grid {
+    grid-template-columns: 1fr;
+  }
+}

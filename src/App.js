@@ -15,6 +15,7 @@ import EmergencyCrisisResponsePage from "./pages/EmergencyCrisisResponsePage";
 import SupportedLivingPage from "./pages/SupportedLivingPage";
 import RehabPage from "./pages/RehabPage";
 import AntiSlaveryPage from "./pages/AntiSlaveryPage";
+import LiveJobsPage from "./pages/LiveJobsPage";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="services/supported-living-services" element={<SupportedLivingPage />} />
         <Route path="services/rehabilitation-services" element={<RehabPage />} />
         <Route path="/anti-slavery-policy" element={<AntiSlaveryPage />} />
+        <Route path="live-jobs" element={<LiveJobsPage />} />
         
       </Routes>
 
