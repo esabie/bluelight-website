@@ -1,0 +1,145 @@
+/* PAGE */
+.live-job-page {
+  background: #f4f7fa;
+  padding-bottom: 80px;
+}
+
+/* HERO */
+.live-job-hero {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(10, 14, 46, 0.7);
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.hero-overlay h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.hero-overlay p {
+  font-size: 14px;
+}
+
+/* JOB STRIP */
+.hero-job-strip {
+  background: #1c2a57;
+  color: #ffd200;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-job-strip h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.job-meta {
+  font-size: 14px;
+  color: #ffd200;
+}
+
+/* CONTENT */
+.live-job-content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 40px;
+}
+
+/* LEFT */
+.job-description {
+  font-size: 14px;
+  color: #1c2a57;
+}
+
+/* APPLY CARD */
+.job-apply-card {
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.apply-header {
+  background: #0B093B;
+  color: #fff;
+  padding: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.apply-form {
+  padding: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-row.full {
+  grid-template-columns: 1fr;
+}
+
+.apply-form label {
+  font-size: 13px;
+  color: #1c2a57;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.apply-form input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #8fb3d9;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.checkbox-group {
+  margin: 15px 0;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* SEND */
+.send-btn {
+  width: 100%;
+  background: #0B093B;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-btn:disabled {
+  background: #b0c4cc;
+  cursor: not-allowed;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .live-job-content {
+    grid-template-columns: 1fr;
+  }
+}

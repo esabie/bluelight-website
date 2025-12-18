@@ -20,6 +20,7 @@ import CreativityPage from "./pages/CreativityPage";
 import RecruitmentPage from "./pages/RecruitmentPage";
 import JoinUsPage from "./pages/JoinUsPage";
 import ReferPage from "./pages/ReferPage";
+import LiveJobs1Page from "./pages/LiveJobsDetails1Page";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/recruitment" element={<RecruitmentPage />} />
         <Route path="/register" element={<JoinUsPage />} />
         <Route path="/refer-a-friend" element={<ReferPage />} />
+        <Route path="/job=1" element={<LiveJobs1Page />} />
         
       </Routes>
 

@@ -1,8 +1,10 @@
 import React from "react";
 import "../LiveJobs.css";
+import { useNavigate } from "react-router-dom";
 import HeroImg from "../../assets/img/aboutt-hero.jpg"; // replace with your image
 
 export default function LiveJobs() {
+  const navigate = useNavigate();
   const jobs = [
     {
       title: "Band 5 Nurse (RGN, A&E, RMN, PAEDIATRIC)",
@@ -162,7 +164,7 @@ export default function LiveJobs() {
             <p><strong>🕒</strong> {job.role}</p>
             <p><strong>£</strong> {job.pay}</p>
 
-            <button className="more-btn">More Info</button>
+            <button className="more-btn" onClick={() => navigate(`/job=1`)}>More Info</button>
           </div>
         ))}
       </div>
