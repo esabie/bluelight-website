@@ -1,0 +1,112 @@
+/* HERO */
+.join-hero {
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+}
+.join-hero-overlay {
+  height: 100%;
+  background: rgba(8, 12, 45, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* FORM WRAPPER */
+.join-form-wrapper {
+  margin-top: -140px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+/* CARD */
+.join-form-card {
+  background: #fff;
+  max-width: 560px;
+  width: 100%;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.join-form-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* FORM */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1c2a57;
+}
+
+.input-wrapper input {
+  padding: 8px 8px 8px 34px;
+  border: none;
+  border-bottom: 1px solid #cfd6e4;
+  outline: none;
+}
+
+textarea {
+  border-bottom: 1px solid #cfd6e4;
+  min-height: 90px;
+}
+
+.error input {
+  border-color: #d33;
+}
+
+.error-text {
+  font-size: 12px;
+  color: #d33;
+}
+
+/* SUBMIT */
+.submit-btn {
+  margin-top: 30px;
+  background: #1c2a57;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+}
+
+.success-message {
+  text-align: center;
+  font-weight: 600;
+  color: #2a7a2a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 640px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import heroImg from "../../assets/img/specialistt-section.jpg";
 import docImg from "../../assets/img/recruitment.jpg";
 import nurseImg from "../../assets/img/nursing.jpg";
@@ -64,6 +65,7 @@ function CandidateCard({ img, title, summary, onReadMore }) {
 ========================= */
 export default function OurCandidates() {
   const [modalData, setModalData] = useState(null);
+  const navigate = useNavigate();
 
   const openModal = (title, content) =>
     setModalData({ title, content });
@@ -142,24 +144,14 @@ export default function OurCandidates() {
             img={registerImg}
             title="Register"
             summary="Quick registration. Register with us today and start your career as a locum medical and healthcare professional. Simply CLICK the link below and let us take care of the rest."
-            onReadMore={() =>
-              openModal(
-                "Register",
-                "Registration with Bluelight is fast, secure, and fully supported — from compliance checks to your first placement."
-              )
-            }
+            onReadMore={() => navigate("/register")}
           />
 
           <CandidateCard
             img={referImg}
             title="Refer a Friend"
             summary="Your recommendations help us to source the best candidates, which is why we offer a minimum of £150 per referral and up to £500 for senior specialists."
-            onReadMore={() =>
-              openModal(
-                "Refer a Friend",
-                "We reward successful referrals with payments ranging from £150 to £500 depending on role seniority."
-              )
-            }
+            onReadMore={() => navigate("/refer-a-friend")}
           />
         </div>
       </section>

@@ -18,6 +18,9 @@ import AntiSlaveryPage from "./pages/AntiSlaveryPage";
 import LiveJobsPage from "./pages/LiveJobsPage";
 import CreativityPage from "./pages/CreativityPage";
 import RecruitmentPage from "./pages/RecruitmentPage";
+import JoinUsPage from "./pages/JoinUsPage";
+import ReferPage from "./pages/ReferPage";
+
 
 function App() {
   return (
@@ -41,6 +44,8 @@ function App() {
         <Route path="/awesome-project" element={<ProjectsPage />} />
         <Route path="/creativity" element={<CreativityPage />} />
         <Route path="/recruitment" element={<RecruitmentPage />} />
+        <Route path="/register" element={<JoinUsPage />} />
+        <Route path="/refer-a-friend" element={<ReferPage />} />
         
       </Routes>
 
