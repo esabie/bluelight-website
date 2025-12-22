@@ -68,14 +68,14 @@
 .asp-card h2 {
   font-size: 24px;
   margin-bottom: 12px;
-  color: #111144;
+  color: #1a184c;
 }
 
 .asp-card h3 {
   font-size: 17px;
   margin-top: 18px;
   margin-bottom: 6px;
-  color: #1d1d4a;
+  color: #1a184c;
 }
 
 .asp-card p {
@@ -115,7 +115,7 @@
 
 .asp-tag-medium {
   background: rgba(247, 183, 51, 0.1);
-  color: #f7b733;
+  color: #dfa226;
 }
 
 /* SIMPLE TABLE STYLE */
@@ -149,7 +149,7 @@
 /* HELPLINE CARD */
 .asp-helpline {
   text-align: center;
-  background: linear-gradient(135deg, #111166, #27238b);
+  background: linear-gradient(135deg, #1a184c, #1a184c);
   color: #fff;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .asp-helpline a {
-  color: #f7d96b;
+  color: #dfa226;
   font-weight: 600;
   text-decoration: none;
 }

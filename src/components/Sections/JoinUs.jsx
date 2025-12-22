@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import emailjs from "@emailjs/browser";
 import {
   FaUser,
   FaPhone,
@@ -18,12 +17,12 @@ export default function JoinUs() {
     email: "",
     job: "",
     message: "",
-    file: null,
-    agree: false,
+    file: null, // UI only (not sent yet)
   });
 
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   /* Animate form on load */
   useEffect(() => {
@@ -34,10 +33,10 @@ export default function JoinUs() {
 
   /* Handle input */
   const handleChange = (e) => {
-    const { name, value, type, checked, files } = e.target;
+    const { name, value, files } = e.target;
     setForm({
       ...form,
-      [name]: type === "checkbox" ? checked : files ? files[0] : value,
+      [name]: files ? files[0] : value,
     });
   };
 
@@ -48,41 +47,48 @@ export default function JoinUs() {
     if (!form.phone) newErrors.phone = "Phone number is required";
     if (!form.email) newErrors.email = "Email is required";
     if (!form.job) newErrors.job = "Job title is required";
-    // if (!form.agree) newErrors.agree = "You must accept the privacy policy";
     return newErrors;
   };
 
-  /* Submit */
-  const handleSubmit = (e) => {
+  /* Submit → Backend → Resend */
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const validationErrors = validate();
 
+    const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
     }
 
     setErrors({});
+    setLoading(true);
 
-    emailjs
-      .send(
-        "****", //service
-        "****", //Template
+    try {
+      const response = await fetch(
+        "http://localhost:8000/api/join",
         {
-          name: form.name,
-          phone: form.phone,
-          email: form.email,
-          job: form.job,
-          message: form.message,
-        },
-        "****" //Private Key
-      )
-      .then(() => {
-        setSubmitted(true);
-      })
-      .catch(() => {
-        alert("Something went wrong. Please try again.");
-      });
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: form.name,
+            phone: form.phone,
+            email: form.email,
+            job: form.job,
+            message: form.message,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to submit");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -93,7 +99,6 @@ export default function JoinUs() {
         style={{ backgroundImage: `url(${heroBg})` }}
       >
         <div className="hero-overlay">
-          {/* <h1>Join Us</h1> */}
           <h1>Quick registration</h1>
         </div>
       </section>
@@ -101,11 +106,9 @@ export default function JoinUs() {
       {/* FORM */}
       <section className="join-form-wrapper">
         <div className="join-form-card">
-          {/* <h1>Quick registration</h1> */}
-
           {submitted ? (
             <div className="success-message">
-              ✅ Thank you! Your application has been sent.
+              ✅ Thank you! Your application has been sent. 
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="join-form">
@@ -118,6 +121,7 @@ export default function JoinUs() {
                   error={errors.name}
                   onChange={handleChange}
                 />
+
                 <Input
                   icon={<FaPhone />}
                   label="Phone"
@@ -126,6 +130,7 @@ export default function JoinUs() {
                   error={errors.phone}
                   onChange={handleChange}
                 />
+
                 <Input
                   icon={<FaEnvelope />}
                   label="Email"
@@ -134,6 +139,7 @@ export default function JoinUs() {
                   error={errors.email}
                   onChange={handleChange}
                 />
+
                 <Input
                   icon={<FaBriefcase />}
                   label="Job Title"
@@ -158,22 +164,12 @@ export default function JoinUs() {
                 <input type="file" name="file" onChange={handleChange} />
               </div>
 
-              {/* <div className="form-group checkbox">
-                <input
-                  type="checkbox"
-                  name="agree"
-                  checked={form.agree}
-                  onChange={handleChange}
-                />
-                <span>I accept the Privacy Policy</span>
-              </div> */}
-
-              {errors.agree && (
-                <p className="error-text">{errors.agree}</p>
-              )}
-
-              <button type="submit" className="submit-btn">
-                Submit
+              <button
+                type="submit"
+                className="submit-btn"
+                disabled={loading}
+              >
+                {loading ? "Submitting..." : "Submit"}
               </button>
             </form>
           )}
