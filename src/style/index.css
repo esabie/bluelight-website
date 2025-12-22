@@ -51,7 +51,7 @@
   }
   body {
     background: #fff;
-    color: #0B093B;
+    color: #1a184c;
     font-family: 'Khula', sans-serif;
     overflow-x: hidden;
     font-size: 16px;
@@ -221,7 +221,7 @@
   }
   /* COLORS */
   .darkColor {
-    color: #0B093B;
+    color: #1a184c;
   }
   .purpleColor {
     color: #7620FF;
@@ -246,7 +246,7 @@
   }
   /* BACKGROUNDS */
   .darkBg {
-    background-color: #0B093B;
+    background-color: #1a184c;
   }
   .purpleBg {
     background-color: #7620FF;
