@@ -91,9 +91,9 @@ export default function ReferAFriend() {
       >
         <div className="hero-overlay">
           <h1>Refer A Friend</h1>
-          <p>
+          {/* <p>
             Home <span>›</span> Refer A Friend
-          </p>
+          </p> */}
         </div>
       </section>
 

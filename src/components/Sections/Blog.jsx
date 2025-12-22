@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 // Components
 import BlogBox from "../Elements/BlogBox";
 import FullButton from "../Buttons/FullButton";
 import TestimonialSlider from "../Elements/TestimonialSlider";
 
 export default function Blog() {
+  const navigate = useNavigate();
+  
   return (
     <Wrapper id="blog">
       <div className="lightBg">
@@ -77,9 +80,9 @@ export default function Blog() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
                 title="Refer Now"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text="Your recommendations help us to source the best candidates, which is why we offer a minimum of £150 per referral and up to £500 for senior specialists."
                 tag="company"
-                action={() => alert("clicked")}
+                action={() => navigate("/refer-a-friend")}
               />
             </div>
           </div>
