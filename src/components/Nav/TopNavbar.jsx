@@ -87,7 +87,7 @@ export default function TopNavbar() {
                   mt-1
                   hidden group-hover:flex
                   flex-col
-                  bg-[#0a0e2e]
+                  bg-[#1a184c]
                   shadow-lg
                   rounded-md
                   py-2

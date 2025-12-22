@@ -7,7 +7,7 @@ export default function AntiSlaveryPolicy() {
       {/* HERO / BANNER */}
       <header className="asp-hero mt-20 pt-20">
         <div className="asp-hero-inner">
-          <p className="asp-hero-kicker">Bluelight Healthcare Recruitment Group</p>
+          <p className="asp-hero-kicker">Bluelight Healthcare Group</p>
           <h1>Anti-Slavery & Human Trafficking Policy and Procedure</h1>
           <p className="asp-hero-sub">
             Human Resources · Equality and Human Rights
