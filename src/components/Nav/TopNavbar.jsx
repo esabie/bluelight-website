@@ -184,7 +184,7 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Contact US
+                Contact Us
               </Link>
             </li>
           </UlWrapper>
