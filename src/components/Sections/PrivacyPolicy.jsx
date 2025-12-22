@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
       <section className="privacy-content">
         <div className="privacy-container">
           <p>
-            Bluelight Healthcare Recruitment Limited’s privacy policy uses and
+            Bluelight Healthcare Group's privacy policy uses and
             protects any information that you give Bluelight Healthcare.
             Bluelight Healthcare is committed to ensuring that your privacy is
             protected. Should we ask you to provide certain information by which
