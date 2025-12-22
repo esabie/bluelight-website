@@ -116,7 +116,7 @@ export default function Contact() {
                       className="whiteColor font13 pointer"
                       href="https://bluelight-website-wip.vercel.app/contact"
                     >
-                      Contact
+                      Contact Us
                     </a>
                   </li>
                 </ul>
