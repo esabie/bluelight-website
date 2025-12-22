@@ -98,7 +98,7 @@ export default function Contact() {
                   <li>
                     <a
                       className="whiteColor font13 pointer"
-                      href="https://bluelighthealthcare.com/privacy_policy"
+                      href="https://bluelight-website-wip.vercel.app/privacy-policy"
                     >
                       Privacy Policy
                     </a>
