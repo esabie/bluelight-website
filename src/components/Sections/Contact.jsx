@@ -30,7 +30,7 @@ export default function Contact() {
                 <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8 darkBg" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
@@ -85,15 +85,15 @@ const Form = styled.form`
   }
 `;
 const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
+  border: 1px solid #1a184c;
+  background-color: #1a184c;
   width: 100%;
   padding: 15px;
   outline: none;
   color: #fff;
   :hover {
-    background-color: #580cd2;
-    border: 1px solid #7620ff;
+    background-color: #2723a6ff;
+    border: 1px solid #2723a6ff;
     color: #fff;
   }
   @media (max-width: 991px) {
