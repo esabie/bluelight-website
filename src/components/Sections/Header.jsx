@@ -55,7 +55,7 @@ export default function Header() {
 
 
 const Wrapper = styled.section`
-  padding-top: 80px;
+  padding-top: 1px;
   width: 100%;
   min-height: 840px;
   @media (max-width: 960px) {
