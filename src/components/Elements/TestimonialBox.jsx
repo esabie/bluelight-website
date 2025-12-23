@@ -20,10 +20,6 @@ export default function TestimonialBox({ text, author }) {
   );
 }
 
-/* =========================
-   STYLES
-========================= */
-
 const Wrapper = styled.div`
   width: 100%;
   background: #17164b;           /* darkBg */
