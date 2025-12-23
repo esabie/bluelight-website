@@ -161,7 +161,7 @@ export default function Services() {
               any changes in health.<br />
               <br />
               <strong> Companionship & Social Support</strong> <br />
-              We understand the importance of mental wellbeing and social connection. Our carers offer companionship, help
+              Mental wellbeing and social connection are important. Our carers offer companionship, help
               clients stay engaged in hobbies, accompany them to appointments or social activities, and encourage participation
               in community life, helping to combat loneliness and isolation.<br />
               <br />
