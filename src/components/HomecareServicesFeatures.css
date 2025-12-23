@@ -15,10 +15,10 @@
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 30px;
 
   justify-items: center;  /* NEW: centers each card in its grid cell */
-  align-items: start;     /* ensures uniform alignment */
+  align-items: stretch;     /* ensures uniform alignment */
 }
 
 /* EACH FEATURE BLOCK */

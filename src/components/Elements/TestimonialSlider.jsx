@@ -44,7 +44,7 @@ export default function TestimonialSlider() {
             text="&quot;Before support began, my son struggled with daily routines and often became distressed when
             leaving the house. The care team introduced structured activities, sensory support, and gentle
             encouragement. Within weeks, he became more confident in public settings, now enjoys
-            community outings, and has built a trusting relationship with his regular carers.quot;"
+            community outings, and has built a trusting relationship with his regular carers.&quot;"
             author="Family Testimonial 1 (Parent of a child with complex needs)"
           />
         </LogoWrapper>
