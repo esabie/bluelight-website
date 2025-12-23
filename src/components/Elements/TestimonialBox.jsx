@@ -1,30 +1,56 @@
 import React from "react";
 import styled from "styled-components";
-// Assets
 import QuoteIcon from "../../assets/svg/Quotes";
 
 export default function TestimonialBox({ text, author }) {
   return (
-    <Wrapper className="darkBg radius8 flexNullCenter flexColumn">
+    <Wrapper>
       <QuoteWrapper>
         <QuoteIcon />
       </QuoteWrapper>
-      <p className="whiteColor font13" style={{ paddingBottom: "30px" }}>
+
+      <Text className="whiteColor font13">
         {text}
-      </p>
-      <p className="orangeColor font13" style={{alignSelf: 'flex-end'}}>
+      </Text>
+
+      <Author className="orangeColor font13">
         <em>{author}</em>
-      </p>
+      </Author>
     </Wrapper>
   );
 }
 
+/* =========================
+   STYLES
+========================= */
+
 const Wrapper = styled.div`
   width: 100%;
-  padding: 20px 30px;
-  margin-top: 30px;
-`;
-const QuoteWrapper = styled.div`
+  background: #17164b;           /* darkBg */
+  border-radius: 18px;           /* radius8 but smoother */
+  padding: 40px 30px 30px;
+
+  min-height: 360px;             /* 🔑 SAME HEIGHT */
+  display: flex;                 /* 🔑 */
+  flex-direction: column;        /* 🔑 */
+
   position: relative;
-  top: -40px;
+`;
+
+const QuoteWrapper = styled.div`
+  position: absolute;
+  top: -22px;
+  left: 30px;
+`;
+
+const Text = styled.p`
+  line-height: 1.7;
+  flex-grow: 1;                  
+  margin-top: 20px;
+`;
+
+const Author = styled.p`
+  margin-top: 20px;
+  align-self: flex-end;
+  font-style: italic;
 `;
