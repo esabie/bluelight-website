@@ -92,7 +92,7 @@ const ButtonInput = styled.input`
   outline: none;
   color: #fff;
   :hover {
-    background-color: #2723a6ff;
+    background-color: #1a184c;
     border: 1px solid #2723a6ff;
     color: #fff;
   }
