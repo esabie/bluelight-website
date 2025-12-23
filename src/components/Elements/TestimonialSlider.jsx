@@ -61,8 +61,8 @@ export default function TestimonialSlider() {
           <TestimonialBox
             text="&quot;The carers respect my independence but are always there when I need them. Since starting the
             service, I’ve been able to attend social groups again, something I thought I’d lost forever. This
-            has made a huge difference to my mental health and wellbeing."
-            author="Patient Testimonial (Adult with physical disabilities)&quot;"
+            has made a huge difference to my mental health and wellbeing.&quot;"
+            author="Patient Testimonial (Adult with physical disabilities)"
           />
         </LogoWrapper>
       </Slider>
