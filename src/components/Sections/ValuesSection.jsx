@@ -25,14 +25,14 @@ export default function ValuesSection() {
           <div className="values-card">
             <h3>OUR CORE VALUES</h3>
             <ul>
-              <li>Compassion: We lead with empathy and kindness.</li>
-              <li>Accountability: We take responsibility for the care we deliver.</li>
-              <li>Respect: We honour every individual’s dignity, rights, and voice.</li>
-              <li>Excellence: We strive for outstanding outcomes.</li>
-              <li>Integrity: We act with honesty and transparency.</li>
-              <li>Teamwork: We collaborate across disciplines and communities.</li>
+              <li><b>Compassion:</b> We lead with empathy and kindness.</li>
+              <li><b> Accountability:</b> We take responsibility for the care we deliver.</li>
+              <li><b> Respect:</b> We honour every individual’s dignity, rights, and voice.</li>
+              <li><b>Excellence:</b> We strive for outstanding outcomes.</li>
+              <li><b>Integrity:</b> We act with honesty and transparency.</li>
+              <li><b>Teamwork:</b> We collaborate across disciplines and communities.</li>
               <li>
-                Inclusivity: We celebrate diversity and ensure care is culturally safe.
+                <b>Inclusivity:</b> We celebrate diversity and ensure care is culturally safe.
               </li>
             </ul>
           </div>

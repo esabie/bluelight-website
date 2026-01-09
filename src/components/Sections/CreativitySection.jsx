@@ -43,11 +43,11 @@ export default function CreativitySection() {
           <div className="creativity-list">
             <p><strong>Aligned with CQC KLOEs:</strong></p>
             <ul>
-              <li>C1 & C3: Care is personalised, and people are involved in decisions.</li>
-              <li>S2: Risks are understood and managed creatively and safely.</li>
-              <li>E1 & E2: Assessments are holistic and support wellbeing and independence.</li>
-              <li>W3: Staff are supported to grow, learn, and innovate.</li>
-              <li>R1: People experience meaningful, fulfilling support.</li>
+              <li><b>C1 & C3:</b> Care is personalised, and people are involved in decisions.</li>
+              <li><b>S2:</b> Risks are understood and managed creatively and safely.</li>
+              <li><b>E1 & E2:</b> Assessments are holistic and support wellbeing and independence.</li>
+              <li><b>W3:</b> Staff are supported to grow, learn, and innovate.</li>
+              <li><b>R1:</b> People experience meaningful, fulfilling support.</li>
             </ul>
           </div>
 

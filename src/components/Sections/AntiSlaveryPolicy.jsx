@@ -83,20 +83,20 @@ export default function AntiSlaveryPolicy() {
         <section className="asp-card" id="purpose">
           <h2>1. Purpose</h2>
           <p>
-            1.1 To ensure that Bluelight Healthcare Recruitment Limited is aware of
+            1.1 To ensure that Bluelight Healthcare Group is aware of
             the issues surrounding slavery and human trafficking and has a policy
             and process in place to identify (and, if applicable, report on) issues
             surrounding slavery and human trafficking.
           </p>
           <p>
             1.2 This policy must be read alongside the Safeguarding Policy and
-            Procedure of Bluelight Healthcare Recruitment Limited. Bluelight will
+            Procedure of Bluelight Healthcare Group. Bluelight will
             ensure that staff understand Local Authority safeguarding reporting
             procedures where the service user is registered, and that these
             procedures are communicated to all staff.
           </p>
           <p>
-            1.3 This policy supports Bluelight Healthcare Recruitment Limited in
+            1.3 This policy supports Bluelight Healthcare Group in
             meeting the following Key Lines of Enquiry:
           </p>
 
@@ -133,7 +133,7 @@ export default function AntiSlaveryPolicy() {
 
           <p>
             1.4 To meet the legal requirements of the regulated activities that
-            Bluelight Healthcare Recruitment Limited is registered to provide,
+            Bluelight Healthcare Group is registered to provide,
             including:
           </p>
           <ul>
@@ -175,7 +175,7 @@ export default function AntiSlaveryPolicy() {
           <p>
             3.1 To promote awareness of concerns surrounding slavery and human
             trafficking, and to promote the commitment of Bluelight Healthcare
-            Recruitment Limited in addressing slavery and human trafficking in all
+            Group in addressing slavery and human trafficking in all
             its forms. An annual statement will be produced, where applicable.
           </p>
         </section>
@@ -185,7 +185,7 @@ export default function AntiSlaveryPolicy() {
           <h2>4. Policy</h2>
 
           <p>
-            4.1 It is unlikely that Bluelight Healthcare Recruitment Limited will
+            4.1 It is unlikely that Bluelight Healthcare Group will
             experience cases of slavery or human trafficking, but this policy
             details the organisation’s commitment to raise awareness and defines a
             process to address issues if they do arise. It acknowledges that human
@@ -263,7 +263,7 @@ export default function AntiSlaveryPolicy() {
 
           <h3>5.1 The Annual Statement (where applicable)</h3>
           <p>
-            If Bluelight Healthcare Recruitment Limited has a turnover of more
+            If Bluelight Healthcare Group has a turnover of more
             than £36m, the annual statement will include details of:
           </p>
           <ul>
@@ -292,7 +292,7 @@ export default function AntiSlaveryPolicy() {
           <p>
             5.5 The statement will be published on the Bluelight website and, where
             appropriate, linked through to any other relevant websites of Bluelight
-            Healthcare Recruitment Limited.
+            Healthcare Group.
           </p>
 
           <h3>5.9 Staff Requirements</h3>
@@ -321,7 +321,7 @@ export default function AntiSlaveryPolicy() {
           <h3>5.13 Incidences of Slavery and Human Trafficking</h3>
           <p>
             The Responsible Individual, <strong>Linda Wacha Akedo</strong>, is the
-            main point of contact within Bluelight Healthcare Recruitment Limited
+            main point of contact within Bluelight Healthcare Group
             for reporting cases and advising on actions to be taken.
           </p>
           <p>
