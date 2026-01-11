@@ -24,7 +24,10 @@ export default function Header() {
             consistent, trauma-informed support, even at short notice.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Refer Now" />
+            <a
+              href="https://bluelight-website-wip.vercel.app/refer-a-friend">
+              <FullButton title="Refer Now" />
+            </a>
           </BtnWrapper>
         </div>
       </LeftSide>
