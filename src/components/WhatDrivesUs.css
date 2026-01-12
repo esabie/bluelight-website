@@ -22,7 +22,7 @@
 
 /* CARD */
 .wd-card {
-  max-width: 1200px;
+  max-width: 120px;
   margin: 0 auto;
   padding: 80px;
 
@@ -54,7 +54,7 @@
 
 .wd-img-top {
   position: relative;
-  z-index: 2;
+  z-index: 20;
 }
 
 .wd-img-bottom {
