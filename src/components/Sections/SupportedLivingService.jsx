@@ -1,12 +1,26 @@
 import React from "react";
-import AboutDriveImage1 from "../../assets/img/supported1.jpg";
-import "../WhatDrivesUs.css";
+import SupportedLivingImg from "../../assets/img/supported2.jpg";
+import "../SupportedLivingSection.css";
 
-export default function SupportedLivingService() {
+
+export default function SupportedLivingSection() {
   return (
-    <div className="wd-img top-img">
-            <img src={AboutDriveImage1} alt="Care Team" />
-          </div>
+    <section className="supported-wrapper">
+      <div className="supported-card">
+        <div className="sl-image-box">
+          <img src={SupportedLivingImg} alt="Supported Living" />
+        </div>
+
+        <div className="supported-content">
+          <h2>SUPPORTED LIVING SERVICES</h2>
+          <p>
+            At Bluelight Healthcare, we believe that everyone has the right to live in a safe,
+             comfortable, and empowering environment, regardless of their support needs. Our Supported 
+             Living services are built around individual choice, dignity, and independence, providing the right 
+             level of assistance so people can live the life they want, on their own terms.
+          </p>
+        </div>
+      </div>
+    </section>
   );
 }
-
